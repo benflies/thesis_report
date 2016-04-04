@@ -71,8 +71,6 @@ Pictures of Bioanalyzer
 
 \subsection{NGS Data Quality}
 
-http://www.panix.com/~elflord/unix/software/spreadsheet2latex/
-
 Illumina Sequencing Viewer
 
 \begin{table}[!htbp]
@@ -81,11 +79,10 @@ Illumina Sequencing Viewer
     \begin{tabular}{ |p{4cm}||p{4cm}||p{4cm}|}
     \hline
     Parameter & Haloplex CSC & TST15 \\ \hline \hline
-    Output (Gb) & 3.5 & 7.4 \\ \hline
-    \% \textgreater Q30 & 95 & 85 \\ \hline
-    Reads PF & bla & bla \\ \hline
-    Cluster Density (k/mm2) & 1100 & 1400 \\ \hline
-    Cluster Density PF (k/mm2) & 1000 & 1300  \\ \hline
+    Yield total (Gb) & 3.7 & 7.37 \\ \hline
+    \% \textgreater Q30 & 93.8 & 82.355 \\ \hline
+    Cluster Density PF (k/mm2) & 1084 & 1180  \\ \hline
+    Cluster Density PF (%) & 85.95 & 79.95  \\ \hline
   \end{tabular}
 \end{table}
 
@@ -108,14 +105,10 @@ sdvxsdxyjcnmxceds ecdnc edckcesa sma
 \hline
 Parameter & Haloplex CSC & TST15 \\
 \hline
-in total & 7417232 & 7417232 \\
-duplicates & 287618 & 287618 \\
-mapped & 4534962 & 4534962 \\
-read1 & 1100 & 1400 \\
-read2 & 1000 & 1300 \\
-properly paired & 1000 & 1300  \\
-itself and mate mapped & 1000 & 1300  \\
-\label{bla}
+\% mapped & 91 & 62.6 \\
+\% paired & 0 & 58.7 \\
+\% singletons & 1.8 & 3.8 \\
+\label{samtools flagstat}
 \end{tabular}
 \end{minipage}
 
@@ -132,7 +125,7 @@ Coverage Distribution TST15 vs Haloplex (absolute & normalized to compare if one
 
 Coverage Distribution per Patient (check if correlation IQR with dCt)
 
-Coverage Distribution per Amplicon (check if somehave always lower coverage, check if some failed)
+Coverage Distribution per Amplicon (check if some have always lower coverage, check if some failed)
 (GATK CallableLoci)
 (GATK CountLoci???)
 (GATK FindCoveredIntervals)
