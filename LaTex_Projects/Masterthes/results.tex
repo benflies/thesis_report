@@ -121,6 +121,9 @@ Parameter & Haloplex CSC & TST15 \\
 
 Coverage Distribution TST15 vs Haloplex
 
+Coverage Distribution per Patient (check if correlation IQR with dCt)
+
+Coverage Distribution per Amplicon (check if some have always lower coverage, check if some failed)
 \begin{figure}[!tbp]
   \centering
   \subfloat[Agilent Haloplex ClearSeq Cancer]{\includegraphics[width=0.45\textwidth]{distribution_amplicons_hap_csc.png}\label{fig:amp_dist_hpx}}
@@ -131,16 +134,48 @@ Coverage Distribution TST15 vs Haloplex
 
 % Merge TST15 MixA & MixB together in one figure.
 % Try to extract median values out of boxplots; new figure with these points
-% -> some kind of trend line
+% -> some kind of trend line. The sooner it gets to a normalized coverage value of 1,
+% the better.
 
-Coverage Distribution per Patient (check if correlation IQR with dCt)
+% Looks like TST15 are better than Haloplex. But problem in TST: some EGFR & KRAS
+% have low distributions.
 
-Coverage Distribution per Amplicon (check if some have always lower coverage, check if some failed)
+%Doo the same for EGFR; KRAS; NRAS; BRAF
+
+Failed Amplicon Counter
+
+\begin{minipage}{0.5\textwidth}
+\captionof{table}{Failed Amplicons in Agilent Haloplex ClearSeq Cancer}
+\begin{tabular}{p{1.5cm} p{1.5cm} p{1.5cm}}\\
+\hline
+Amplicon & Coverage Failed & No of Samples \\
+\hline
+ATM_14 & 1 & all \\
+Bla & 200 & 9 \\
+Blabla & 500 & 5 \\
+\label{failed_hpx}
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+\captionof{table}{Your caption here}
+\begin{tabular}{p{3cm} p{1.5cm} p{1.5cm}}\\
+\hline
+Amplicon & Coverage Failed & No of Samples \\
+\hline
+ATM_14 & 1 & all \\
+Bla & 200 & 9 \\
+Blabla & 500 & 5 \\
+\label{failed_tst}
+\end{tabular}
+\end{minipage}
+
+Fragmentation <-> Coverage?
+% Scatter plot: dCt vs normalized coverage (median / IQR ???)
+
 (GATK CallableLoci)
 (GATK CountLoci???)
 (GATK FindCoveredIntervals)
-
-Failed Amplicon Counter
 
 On-off target; Enrichment Efficiency TST15 vs Haloplex
 
@@ -149,9 +184,6 @@ Coverage across genome, check where there is coverage
 Strandedness?
 
 GATK DepthOfCoverage???
-GATK FlagStat???
-Fragmentation <-> Coverage?
-
 
 \subsection{Variant Calling Algorithm Comparison}
 Detection of Known Single Nucleotide Variants and Deletions
@@ -159,6 +191,19 @@ Detection of Known Single Nucleotide Variants and Deletions
 Which should be found?
 
 Which have not been found? Why?
+
+\begin{table}[!htbp]
+  \caption[known_variants]{Known Variant Detection}
+  \centering
+    \begin{tabular}{ |p{4cm}||p{4cm}||p{4cm}|}
+    \hline
+    Gene & Chr & Pos & Ref & Alt & Haloplex & TST15 \\ \hline \hline
+    Yield total (Gb) & 3.7 & 7.37 \\ \hline
+    \% \textgreater Q30 & 93.8 & 82.355 \\ \hline
+    Cluster Density PF (k/mm2) & 1084 & 1180  \\ \hline
+    Cluster Density PF (%) & 85.95 & 79.95  \\ \hline
+  \end{tabular}
+\end{table}
 
 MuTect
 
