@@ -88,15 +88,20 @@ Illumina Sequencing Viewer
 
 FASTQC
 
-Samtools flagstat
-
-{\lipsum[2]
 
 \begin{minipage}{0.5\textwidth}
-Blabla bla bla bla cfgvhbjknlmdsc
-dc
-sdcdscedsvdsv
-sdvxsdxyjcnmxceds ecdnc edckcesa sma
+The Samtools Flagstat command was used to determine some basic BAM statistics of BAM
+files of samples prepared with the respective library preparations and processed with
+the mentioned bioinformatic pipelines. \ref{table:samtools_flagstat} shows the
+averaged result of these statistics. Considering the recommended pipelines, Haloplex
+CSC data, analyzed with Agilent's SureCall software, has a higher percentage (91\%) of mapped
+reads when compared to Illumina's BaseSpace TruSight Tumor 15 App (62.9\%). Data analysis
+with the recommended SureCall design includes a steps where mates are fixed, but they
+are not stitched together. Therefore no reads are considered as being paired. The TST15 app
+in contrast includes a read stitching step and 58\% are considered as properly paired.
+This means that of the 62.6\% of mapped reads, 4.2\% are not properly paired. 3.8\%
+of reads processed with the TST15 online App are considered to be singletons, whereas
+only 1.8\% of reads processed with the SureCall software are considered as singletons.
 \end{minipage}
 \hfill
 \begin{minipage}{0.5\textwidth}
@@ -108,20 +113,25 @@ Parameter & Haloplex CSC & TST15 \\
 \% mapped & 91 & 62.6 \\
 \% paired & 0 & 58.7 \\
 \% singletons & 1.8 & 3.8 \\
-\label{samtools flagstat}
+\label{samtools_flagstat}
 \end{tabular}
 \end{minipage}
 
-
-{\lipsum[2]
-
-GATK ReadLengthDistribution
-
-GATK FlagStat???
-
 \subsection{Coverage Analysis}
 
-Coverage Distribution TST15 vs Haloplex (absolute & normalized to compare if one of them has a larger IQR)
+Coverage Distribution TST15 vs Haloplex
+
+\begin{figure}[!tbp]
+  \centering
+  \subfloat[Agilent Haloplex ClearSeq Cancer]{\includegraphics[width=0.45\textwidth]{distribution_amplicons_hap_csc.png}\label{fig:amp_dist_hpx}}
+  \hfill
+  \subfloat[Illumina TruSight Tumor 15]{\includegraphics[width=0.45\textwidth]{graph.pdf}\label{fig:amp_dist_tst}}
+  \caption{Comparison of Coverage Distributions per Amplicon}
+\end{figure}
+
+% Merge TST15 MixA & MixB together in one figure.
+% Try to extract median values out of boxplots; new figure with these points
+% -> some kind of trend line
 
 Coverage Distribution per Patient (check if correlation IQR with dCt)
 
