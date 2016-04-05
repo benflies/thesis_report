@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis_template.aux
 The style file: ecta.bst
 Database file #1: literature.bib
-You've used 2 entries,
+You've used 3 entries,
             2849 wiz_defined-function locations,
-            611 strings with 4934 characters,
-and the built_in function-call counts, 1082 in all, are:
-= -- 86
-> -- 35
-< -- 4
-+ -- 11
-- -- 9
-* -- 90
-:= -- 172
-add.period$ -- 3
-call.type$ -- 2
-change.case$ -- 11
+            611 strings with 5128 characters,
+and the built_in function-call counts, 2563 in all, are:
+= -- 173
+> -- 213
+< -- 2
++ -- 70
+- -- 66
+* -- 249
+:= -- 409
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 34
 chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 78
-empty$ -- 90
-format.name$ -- 19
-if$ -- 213
-int.to.chr$ -- 1
+cite$ -- 3
+duplicate$ -- 170
+empty$ -- 135
+format.name$ -- 82
+if$ -- 482
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 15
-newline$ -- 11
-num.names$ -- 10
-pop$ -- 26
+missing$ -- 36
+newline$ -- 14
+num.names$ -- 15
+pop$ -- 77
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 34
 quote$ -- 0
-skip$ -- 33
+skip$ -- 42
 stack$ -- 0
-substring$ -- 54
-swap$ -- 37
+substring$ -- 67
+swap$ -- 90
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
+type$ -- 36
 warning$ -- 0
-while$ -- 8
+while$ -- 11
 width$ -- 0
-write$ -- 27
+write$ -- 38

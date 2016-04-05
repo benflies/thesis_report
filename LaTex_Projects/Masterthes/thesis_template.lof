@@ -2,3 +2,6 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Comparison of Agilent Bioanalyzer Electropherograms}}{8}{figure.2}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Overlayed Electropherograms of Four Representative Libraries Prepared with Agilent Haloplex CSC}}}{8}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Overlayed Electropherograms of Four Representative Libraries Prepared with Illumina TST15 (MixA \& MixB)}}}{8}{subfigure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Comparison of Coverage Distributions per Amplicon}}{10}{figure.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Agilent Haloplex ClearSeq Cancer}}}{10}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Illumina TruSight Tumor 15}}}{10}{subfigure.3.2}

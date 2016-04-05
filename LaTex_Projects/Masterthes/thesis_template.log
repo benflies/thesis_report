@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.18)  3 APR 2016 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.18)  4 APR 2016 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,18 +448,18 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 13.24796pt on input line 5.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 10.07397pt on input line 14.
- [1
+(Font)              scaled to size 10.07397pt on input line 17.
+) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./abs
-tract.tex
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./abst
+ract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
  []
 
-) [2] (./thesis_template.toc
+) [1] (./thesis_template.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -486,18 +486,37 @@ l.14 ...& Quality Control}{6}{subsubsection.2.1.2}
 \tf@toc=\write4
 \openout4 = `thesis_template.toc'.
 
- [3] (./abbreviations.tex) [4
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.113 \clearpage
+                 [2] (./abbreviations.tex
+Overfull \hbox (1.21478pt too wide) in paragraph at lines 6--6
+[]\OT1/phv/m/n/10.95 SGMB| 
+ []
+
+
+Overfull \hbox (1.77899pt too wide) in paragraph at lines 6--6
+[]\OT1/phv/m/n/10.95 TST15| 
+ []
+
+
+Overfull \hbox (33.77357pt too wide) in paragraph at lines 4--8
+[][] 
+ []
+
+) [1
 
 ] (./thesis_template.lof)
 \tf@lof=\write5
 \openout5 = `thesis_template.lof'.
 
- [5]
-(./thesis_template.lot)
+ [2] (./thesis_template.lot)
 \tf@lot=\write6
 \openout6 = `thesis_template.lot'.
 
- [6] (./intro.tex
+ [3] (./intro.tex
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 5.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsphv.fd
@@ -539,25 +558,10 @@ l.73
 Missing character: There is no ‚ in font phvr7t!
 Missing character: There is no Ä in font phvr7t!
 Missing character: There is no ô in font phvr7t!
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.101 
-       [2]
+ [2]
 Missing character: There is no Ã in font phvr7t!
 Missing character: There is no Å in font phvr7t!
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.152 
-       [3]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.188 
-       [4]) (./methods.tex
+ [3] [4]) (./methods.tex
 ! Misplaced alignment tab character &.
 <argument> Material &
                       Methods
@@ -568,12 +572,7 @@ l.1 \section{Material & Methods}
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `alignment tab' on input line 1.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.16 \end{itemize}
-                   [5]
+[5]
 ! Misplaced alignment tab character &.
 <argument> DNA Extraction, Quantification &
                                             Quality Control
@@ -584,21 +583,15 @@ l.20 ...raction, Quantification & Quality Control}
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `alignment tab' on input line 20.
 
-) (./results.texpdfTeX warning (ext4): destination with the same identifier (na
-me{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \item U
-           se tables, figures (but prefer visual presentation): [6]
-<graph.pdf, id=216, 361.35pt x 303.1325pt>
+) (./results.tex [6] <graph.pdf, id=225, 361.35pt x 303.1325pt>
 File: graph.pdf Graphic file (type pdf)
- <use graph.pdf>
+
+<use graph.pdf>
 Package pdftex.def Info: graph.pdf used on input line 20.
 (pdftex.def)             Requested size: 180.67456pt x 151.56587pt.
  [7 <./graph.pdf>]
 File: graph.pdf Graphic file (type pdf)
-
-<use graph.pdf>
+ <use graph.pdf>
 Package pdftex.def Info: graph.pdf used on input line 66.
 (pdftex.def)             Requested size: 198.45662pt x 166.48286pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
@@ -611,95 +604,149 @@ File: graph.pdf Graphic file (type pdf)
  <use graph.pdf>
 Package pdftex.def Info: graph.pdf used on input line 68.
 (pdftex.def)             Requested size: 198.45662pt x 166.48286pt.
-LaTeX Font Info:    Try loading font information for OML+phv on input line 85.
+LaTeX Font Info:    Try loading font information for OML+phv on input line 83.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlphv.fd
 File: omlphv.fd 
 )
 LaTeX Font Info:    Font shape `OML/phv/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 85.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 83.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 []\OT1/phv/m/n/10.95 Cluster Den-sity PF
  []
 
-[8]
-Underfull \hbox (badness 3260) in paragraph at lines 99--103
-[]\OT1/phv/m/n/10.95 Blabla bla bla bla cfgvh-b-jknlmdsc dc sd-cd-
- []
+
+LaTeX Warning: Reference `table:samtools_flagstat' on page 8 undefined on input
+ line 95.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []\OT1/phv/m/n/10.95 Haloplex
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]\OT1/phv/m/n/10.95 itself and mate
- []
-
-
-Overfull \hbox (19.13565pt too wide) in paragraph at lines 98--121
+Overfull \hbox (19.13565pt too wide) in paragraph at lines 92--119
 []$[]$  $[]$ 
  []
 
-[9]
-! Misplaced alignment tab character &.
-l.131 ...istribution TST15 vs Haloplex (absolute &
-                                                   normalized to compare if ...
+[8] [9] <distribution_amplicons_hap_csc.png, id=255, 1107.1764pt x 864.3492pt>
+File: distribution_amplicons_hap_csc.png Graphic file (type png)
 
+<use distribution_amplicons_hap_csc.png>
+Package pdftex.def Info: distribution_amplicons_hap_csc.png used on input line 
+129.
+(pdftex.def)             Requested size: 198.45662pt x 154.92989pt.
+File: graph.pdf Graphic file (type pdf)
+ <use graph.pdf>
+Package pdftex.def Info: graph.pdf used on input line 131.
+(pdftex.def)             Requested size: 198.45662pt x 166.48286pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]\OT1/phv/m/n/10.95 No of
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.153 ATM_
+          14 & 1 & all \\
 ? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.153 ATM_14 &
+               1 & all \\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+[]\OT1/phv/m/n/10.95 No of
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.166 ATM_
+          14 & 1 & all \\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.166 ATM_14 &
+               1 & all \\
+? 
+
+Overfull \hbox (19.13565pt too wide) in paragraph at lines 147--172
+[]$[]$  $[]$ 
+ []
+
+[10 <./distribution_amplicons_hap_csc.png>]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.200     Gene & Chr & Pos &
+                             Ref & Alt & Haloplex & TST15 \\ \hline \hline
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.200 ...Gene & Chr & Pos & Ref & Alt & Haloplex &
+                                                   TST15 \\ \hline \hline
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]\OT1/phv/m/n/10.95 Cluster Den-sity PF
+ []
+
 ! Misplaced alignment tab character &.
-l.170 SureCall &
+l.218 SureCall &
                  TST15
 ? 
-) (./conc.tex [10]) [11] (./thesis_template.bbl
+) (./conc.tex) [11] (./thesis_template.bbl
 LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
 (Font)              scaled to size 10.07397pt on input line 7.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  (./thesis_template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
 Package rerunfilecheck Info: File `thesis_template.out' has not changed.
 (rerunfilecheck)             Checksum: 2504F829D9B352E75D42E00DED3EF4FE;2005.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
- )
-(\end occurred inside a group at level 2)
-
-### simple group (level 2) entered at line 123 ({)
-### simple group (level 1) entered at line 96 ({)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+ ) 
 Here is how much of TeX's memory you used:
- 8005 strings out of 493089
- 116967 string characters out of 6134842
- 306608 words of memory out of 5000000
- 11291 multiletter control sequences out of 15000+600000
+ 8033 strings out of 493089
+ 117469 string characters out of 6134842
+ 307902 words of memory out of 5000000
+ 11307 multiletter control sequences out of 15000+600000
  23420 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,10n,47p,320b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on thesis_template.pdf (18 pages, 127803 bytes).
+ 36i,11n,47p,320b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on thesis_template.pdf (18 pages, 173618 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 

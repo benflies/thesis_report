@@ -7,7 +7,7 @@
 \usepackage[authoryear]{natbib}                 % literature reference style
 \usepackage[bf]{caption2}
 \usepackage{wrapfig,lipsum,booktabs}
-\usepackage{subfig}  
+\usepackage{subfig}
 
 \usepackage[scaled=0.92]{helvet}
 \renewcommand{\familydefault}{\sfdefault}
@@ -80,7 +80,6 @@
 % -------------------------------
 % --- frontmatter: Title page ---
 % -------------------------------
-
 \thispagestyle{empty}
 \input{titlepage}
 
@@ -102,6 +101,7 @@
 % -----------------------------
 \newpage
 \input{abstract}
+\pagenumbering{gobble}
 
 
 
@@ -111,12 +111,15 @@
 \newpage
 \tableofcontents
 \clearpage
+\pagenumbering{gobble}
 
 
 % ----------------------------------------------------
 % --- frontmatter: List of Figures (not mandatory) ---
 % ----------------------------------------------------
 \newpage
+\renewcommand{\thepage}{\roman{page}}% Arabic page numbers
+\setcounter{page}{1}
 \addcontentsline{toc}{section}{List of Abbreviations}
 \ohead[]{LIST OF ABBREVIATIONS}
 \input{abbreviations}

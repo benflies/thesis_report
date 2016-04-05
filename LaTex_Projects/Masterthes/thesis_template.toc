@@ -1,6 +1,6 @@
-\contentsline {section}{List of Abbreviations}{4}{section*.2}
-\contentsline {section}{List of Figures}{5}{section*.3}
-\contentsline {section}{List of Tables}{6}{section*.4}
+\contentsline {section}{List of Abbreviations}{i}{section*.2}
+\contentsline {section}{List of Figures}{ii}{section*.3}
+\contentsline {section}{List of Tables}{iii}{section*.4}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}EGFR Signaling Cascade}{1}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Targeted Sequencing and Target Enrichment Methods}{2}{subsection.1.2}
@@ -30,6 +30,6 @@
 \contentsline {subsection}{\numberline {3.1}Sample Preparation}{8}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}NGS Data Quality}{8}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Coverage Analysis}{10}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Variant Calling Algorithm Comparison}{10}{subsection.3.4}
-\contentsline {section}{\numberline {4}Conclusions}{10}{section.4}
+\contentsline {subsection}{\numberline {3.4}Variant Calling Algorithm Comparison}{11}{subsection.3.4}
+\contentsline {section}{\numberline {4}Conclusions}{11}{section.4}
 \contentsline {section}{References}{12}{section.4}
