@@ -1,26 +1,20 @@
-\begin{thebibliography}{3}
-\newcommand{\enquote}[1]{``#1''}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\begin{thebibliography}{1}
 
-\bibitem[\protect\citeauthoryear{Breusch and Schmidt}{Breusch and
-  Schmidt}{1988}]{Breusch&Schmidt:88}
-\textsc{Breusch, T.~S. and P.~Schmidt} (1988): \enquote{Alternative Forms of
-  the {W}ald test: How Long is a Piece of String,} \emph{Communications in
-  Statistics, Theory and Methods}, 17, 2789--2795.
-
-\bibitem[\protect\citeauthoryear{Cibulskis, Lawrence, Carter, Sivachenko,
-  Jaffe, Sougnez, Gabriel, Meyerson, Lander, and Getz}{Cibulskis
-  et~al.}{2013{\natexlab{a}}}]{mutect:2013}
-\textsc{Cibulskis, K., M.~S. Lawrence, S.~L. Carter, A.~Sivachenko, D.~Jaffe,
-  C.~Sougnez, S.~Gabriel, M.~Meyerson, E.~S. Lander, and G.~Getz}
-  (2013{\natexlab{a}}): \enquote{Sensitive detection of somatic point mutations
-  in impure and heterogeneous cancer samples,} \emph{Computational Biology}.
-
-\bibitem[\protect\citeauthoryear{Cibulskis, Lawrence, Carter, Sivachenko,
-  Jaffe, Sougnez, Gabriel, Meyerson, Lander, and Getz}{Cibulskis
-  et~al.}{2013{\natexlab{b}}}]{Gallant:87}
----\hspace{-.1pt}---\hspace{-.1pt}--- (2013{\natexlab{b}}): \enquote{Sensitive
+\bibitem{mutect:2013}
+K.~Cibulskis, M.~S. Lawrence, S.~L. Carter, A.~Sivachenko, D.~Jaffe,
+  C.~Sougnez, S.~Gabriel, M.~Meyerson, E.~S. Lander, and G.~Getz, ``Sensitive
   detection of somatic point mutations in impure and heterogeneous cancer
-  samples,} \emph{Computational Biology}.
+  samples,'' {\em Computational Biology}, 2013.
+
+\bibitem{Breusch&Schmidt:88}
+T.~S. Breusch and P.~Schmidt, ``Alternative forms of the {W}ald test: How long
+  is a piece of string,'' {\em Communications in Statistics, Theory and
+  Methods}, vol.~17, pp.~2789--2795, 1988.
+
+\bibitem{Gallant:87}
+K.~Cibulskis, M.~S. Lawrence, S.~L. Carter, A.~Sivachenko, D.~Jaffe,
+  C.~Sougnez, S.~Gabriel, M.~Meyerson, E.~S. Lander, and G.~Getz, ``Sensitive
+  detection of somatic point mutations in impure and heterogeneous cancer
+  samples,'' {\em Computational Biology}, 2013.
 
 \end{thebibliography}

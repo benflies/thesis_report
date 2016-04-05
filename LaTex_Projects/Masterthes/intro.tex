@@ -13,7 +13,7 @@ economic/econometric problem.
 -> Study effect of FFPE
 
 \item What do we already know about the subject (literature
-review)? Use citations: {\it \citet{mutect:2013} shows that...
+review)? Use citations: { \cite{mutect:2013} shows that...
 Alternative Forms of the Wald test are considered
 \citep{Breusch&Schmidt:88}.}
 
@@ -30,181 +30,31 @@ General Intro; maybe subsection about
 
 \subsection{EGFR Signaling Cascade}
 
-The samples used in this study originate from samples that have been analyzed in
-the routine workflow of the SGMB. These samples originate from patients suffering
-from solid tumors, e.g. mainly melanoma, colorectal cancer (CRC) and non-small cell
-lung carcinoma (NSCLC).
+Describe pathway
 
-There is evidence that the EGFR (Epithelial Growth Factor Receptor) signaling
-cascade is modified in those cancers.
+Common mutations in this pathway
 
-Evidence suggests that many solid tumors use and modify EGFR (Epithelial
-Growth Factor Receptor) signaling for their purposes [4]. Targeting this
-signaling pathway is thereby an attractive anti-cancer treatment. In this
-regard, anti-EGFR monoclonal antibodies (cetuximab (Erbitux®) and panitumumab
-(Vectibix®) and tyrosine kinase inhibitors (erlotinib (Tarceva®) and gefitinib
-(Iressa®)) have shown their usefulness in cancer treatments [5]. EGFR and
-downstream proteins K-Ras / N- Ras and B-Raf are predictive biomarkers for the
-successfulness of the administration of the mentioned drugs [6]. Comprehensive
-information about these markers is thereby essential when choosing a suitable
-treatment in order to minimize treatment- associated side-effects and to
-maximize the benefits of the treatment.
-
-In their article, Scaltriti and Baselga present the EGFR signaling pathway as a
-model for targeted therapy [7]. EGFR is part of the family of receptor tyrosine
-kinases. This transmembrane protein is composed of an intracytoplasmic tyrosine
-kinase domain, a short hydrophobic transmembrane region and an extracellular
-ligand-binding domain. Upon ligand (EGF, TGFα) binding, EGFR becomes activated.
-This leads to homodimerization, which results in an auto- and
-cross-phosphorylation of key tyrosine residues on its cytoplasmic domain. This
-forms docking sites for cytoplasmic proteins that contain
-phosphotyrosine-binding and Src homology 2 domains. This allows, amongst others,
-signaling through the PTEN/PI3K/AKT and RAS-RAF-MAPK pathways. Activation of
-PTEN/PI3K/AKT leads to cell growth, proliferation and survival [8], while
-RAS-RAF-MAPK induces cell survival and cell cycle progression and proliferation
-[9]. In the RAS-Raf-MAPK pathway, Grb2 and Sos, two adaptor proteins, form a
-complex with the activated EGFR [10]. The resulting conformational change of Sos
-recruits Ras-GDP, which in turn becomes activated to form Ras-GTP. Ras-GTP
-activates Raf, which, in intermediate steps, phosphorylates a MAPK
-(mitogen-activated protein kinase). Activated MAPKs are then imported from the
-cytoplasm into the nucleus where they act on target genes. The Ras and Raf
-subfamilies include several proteins, three of them are of interest in targeted
-cancer treatments: K-Ras, N-Ras and B-Raf.
-
-Activating mutations of EGFR or its downstream proteins provide resistance to
-specific treatments. In that regard, the Institut National du Cancer (F) [11]
-provides recommendations about which mutations have to be searched to identify
-patients eligible for the administration of monoclonal antibodies or tyrosine
-kinase inhibitors. For instance, mutations on codon 12 and 13 in the KRAS gene
-provide resistance to the monoclonal antibody agents panitumumab and cetuximab.
-Gefinitinib, a tyrosine kinase inhibitor, can only be prescribed for patients,
-which show no activating mutations on EGFR.
+EGFR-targeted drugs
 
 \subsection{Targeted Sequencing and Target Enrichment Methods}
-Several NGS bench-top devices have become available in the last decade. These
-instrumentations differ in their underlying chemistry that influences the
-instrument’s performance, accuracy, output and time per run. Common sequencing
-principles include pyrosequencing (454), sequencing by ligation (SOLiD), ion
-semiconductor (Ion Torrent) and sequencing by synthesis (Illumina) [12]. Even
-though advances in sequencing technology and computational power and tools have
-decreased the time and cost of a sequencing experiment, NGS is still mainly used
-in research, with only a few laboratories using this technique in diagnostics.
 
-In fact, validation of a NGS methodology requires careful assessment of methods
-and tools [13]. Therefore, each step that is performed from the initial starting
-material to sample processing, sequencing library preparation, sequencing assay
-and bioinformatic processing has to be carefully checked for sources of
-potential errors or variability. Basically, in the validation process, it is
-checked whether the method measures what it claims to measure with the required
-sensitivity and sensibility.
+Hybrid capture
 
-With the success of NGS, many cancer genomes have been sequenced and made
-available to the worldwide research community. Companies, molecular diagnostics
-laboratories and academic centers are trying to use these big data for their
-purposes. A lot of mutations are described in these genomes, but only a small
-fraction of them are clinically actionable, e.g. can be targeted with specific
-drugs. Therefore, a molecular pathology laboratory does not need to perform
-whole-genome or -exome sequencing, but can employ targeted NGS to analyze some
-genes of interest, which include mutations for which there exists a clinical
-utility. Due to the low number of target regions, targeted NGS allows high
-coverage. In addition, it is a time- and cost- efficient alternative to
-whole-genome or -exome sequencing. Also, targeted NGS results in a significantly
-lower amount of produced data and thereby eases data storage and analysis time.
-Table 1 shows a selection of commercially available cancer gene panels, which
-all allow to analyze selected regions of genes implicated in cancerogenesis.
-Before implementing one of these panels for molecular diagnostics, it has to be
-ensured that the panel allows to study the genes of interest, e.g. genes that
-are clinically applicable, and a careful assessment of its analytical validity
-has to be performed.
+Selective circularization
+
+PCR amplification
 
 \subsection{Illumina MiSeq Sequencing Chemistry}
+
+Picture
 
 \subsection{NGS Data Analysis}
 
 GATK best practices
 
 \subsection{Practical Implications in the Laboratory}
-The quality of the genetic testing of the tumor is affected by several
-factors. These include the content of tumor cells in the sample, the quality
-of the tissue material, sequencing library preparation and the the
-bioinformatic pipeline.
 
-The biopsy usually consists of healthy and cancer cells. The sensitivity of
-tumor variant detection is linked to the tumor cell content of the specimen. In
-addition, cancers are highly heterogenous, e.g. a small subpopulation might
-present mutations that provide resistance to targeted treatment. Detecting these
-low-frequency mutations and clearly separating them from eventual high-frequency
-fixation or sequencing artifacts presents a huge challenge [14].
-
-Tumor biopsies usually yield a limited amount of tissue, therefore it is
-conceivable to use the same sample for more analyses. In Luxembourg, all
-relevant tumor biopsies are usually sent to the Laboratoire National de Santé
-(LNS) to the Service of Pathologic Anatomy where the biopsy is fixed in formalin
-and embedded in paraffin (FFPE). FFPE conserves the tissue morphology and
-thereby allows histological analysis. In addition, it allows to store specimens
-for decades. Sample quality, however, is influenced by this fixation method, but
-also by the size of the biopsy, and its fixation time [13]. DNA extraction from
-FFPE samples is difficult and yields low amounts of DNA [15]; formaldehyde leads
-to cross-linking of nucleic acids and proteins [16]; FFPE introduces fixation
-artifacts into DNA sequences [17|. These circumstances complicate sample
-processing as well as NGS data interpretation. Though, FFPE samples have been
-shown to be still suitable for downstream analyses [18].
-
-FFPE = more details
-
-Sequencing library preparation also affects the final NGS result. Several
-technologies for target enrichment exist and are available for different
-sequencing instruments [19]. Essential for all these enrichment methods is the
-amplification of target regions and the introduction of multiplexing, which
-requires the incorporation of a unique index adaptor combination for each
-sample. Target enrichment methods can be separated into three basic groups:
-targeted circularization, hybrid capture of target fragments and PCR-based
-enrichment methods. PCR-driven methods happen on high-molecular DNA. In contrast
-to uniplex long-range PCR, short-range multiplex PCR produces short DNA
-fragments of target regions. There is thereby no need of DNA shearing.
-Hybridization-based methods require a so-called shotgun library construction
-before target regions can be captured. During this process, genomic DNA is
-sheared randomly into small fragments and an adapter- and index-linked library
-is produced. Biotinylated baits are added that bind to target regions. Target
-regions can then be captured using streptadivin coated magnetic beads. Targeted
-circularization methods rely on a digestion of DNA by restriction enzymes. The
-produced DNA fragments are then circularized and uncircularized DNA fragments
-are removed by exonucleases. Only circularized target regions are then amplified
-by PCR.
-
-More details
-
-The establishment and validation of a bioinformatic NGS data analysis pipeline
-still constitutes a challenge in diagnostics. After generation of FASTQ files of
-the sequencer, data generally undergo quality control, followed by trimming of
-low quality bases, alignment to the reference genome, variant calling and
-variant annotation. For each of these steps, several bioinformatic algorithms
-and tools exist [20]. The computational pipeline of the molecular pathology
-laboratory has to incorporate the tools that allow the most sensitive and
-sensible analysis of data. For instance, quality trimming influences the mapping
-to the reference genome. The mapping, in turn, strongly affects the variant
-calling. In fact, variant calling is a critical step in NGS data analysis.
-Several tool kits as SAMtools, SPLINTER, VarScan2 or GATK allow variant
-annotation, but vary in their false-positive and false-negative detection rates
-([21], [22]). These tools have to be carefully assessed, as false-positives or
-false-negatives should absolutely be avoided when it comes to the subscription
-of a targeted chemotherapeutic agent.
-
-To facilitate interpretation of NGS data, variants have to be annotated and
-their clinical actionability has to be identified. Several databases have
-emerged in this field (such as mycancergenome.org) and numerous tools allow to
-automatize variant annotation. Here again, the choice of the database and the
-variant annotator is important.
-
-Finally, the sample-to-results time is a very pragmatic, but important factor.
-The time from the biopsy to the potential start of an administration of a
-targeted chemotherapeutic drug should be reduced to a minimum. For instance, in
-case of late-stage cancer patients, it would be unacceptable if analysis would
-take several weeks. To reduce the sample-to-results time to under two weeks, the
-sample processing workflow should be as short as possible, while still yielding
-high quality sequencing libraries. The bioinformatic pipeline should not only
-incorporate the best tools, but should also be automatized to further reduce the
-time of analysis.
+FFPE : more details
 
 \subsection{Aims of the Thesis}
 Targeted NGS is still not widely used in diagnostics laboratories. The SGMB of the LNS
