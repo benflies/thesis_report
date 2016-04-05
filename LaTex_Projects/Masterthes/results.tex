@@ -86,8 +86,20 @@ Illumina Sequencing Viewer
   \end{tabular}
 \end{table}
 
-FASTQC
 
+TST15 has a higher cluster density and therefore a higher total yield, but has
+lower reads passing a phred-score threshold of Q30 than Haloplex. This is due to
+the different chemistries used. TST15 uses v3 chemistry, while Haloplex uses v2.
+v2 generally has lower cluster density and output, but therefore better quality.
+
+FASTQC
+\begin{figure}[!tbp]
+  \centering
+  \subfloat[hpx_csc_fastqc]{\includegraphics[width=0.45\textwidth]{distribution_amplicons_hap_csc.png}\label{fig:amp_dist_hpx}}
+  \hfill
+  \subfloat[tst15_fastqc]{\includegraphics[width=0.45\textwidth]{graph.pdf}\label{fig:amp_dist_tst}}
+  \caption{Comparison of Coverage Distributions per Amplicon}
+\end{figure}
 
 \begin{minipage}{0.5\textwidth}
 The Samtools Flagstat command was used to determine some basic BAM statistics of BAM
@@ -140,7 +152,7 @@ Coverage Distribution per Amplicon (check if some have always lower coverage, ch
 % Looks like TST15 are better than Haloplex. But problem in TST: some EGFR & KRAS
 % have low distributions.
 
-%Doo the same for EGFR; KRAS; NRAS; BRAF
+% Do the same for EGFR; KRAS; NRAS; BRAF
 
 Failed Amplicon Counter
 
@@ -192,19 +204,6 @@ Which should be found?
 
 Which have not been found? Why?
 
-\begin{table}[!htbp]
-  \caption[known_variants]{Known Variant Detection}
-  \centering
-    \begin{tabular}{ |p{4cm}||p{4cm}||p{4cm}|}
-    \hline
-    Gene & Chr & Pos & Ref & Alt & Haloplex & TST15 \\ \hline \hline
-    Yield total (Gb) & 3.7 & 7.37 \\ \hline
-    \% \textgreater Q30 & 93.8 & 82.355 \\ \hline
-    Cluster Density PF (k/mm2) & 1084 & 1180  \\ \hline
-    Cluster Density PF (%) & 85.95 & 79.95  \\ \hline
-  \end{tabular}
-\end{table}
-
 MuTect
 
 VarScan
@@ -217,9 +216,6 @@ Vardict???????
 
 SureCall & TST15
 
-GATK SelectVariants
-GATK VariantFiltration
-GATK VariantEval
-GATK ValidateVariants
+Tools that may be of use somehow: GATK SelectVariants; GATK VariantFiltration; GATK VariantEval; GATK ValidateVariants
 
 More C>T ?

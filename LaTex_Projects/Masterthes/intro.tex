@@ -26,7 +26,7 @@ Alternative Forms of the Wald test are considered
 
 \end{itemize}
 
-General Intro
+General Intro; maybe subsection about
 
 \subsection{EGFR Signaling Cascade}
 
@@ -70,7 +70,6 @@ activates Raf, which, in intermediate steps, phosphorylates a MAPK
 cytoplasm into the nucleus where they act on target genes. The Ras and Raf
 subfamilies include several proteins, three of them are of interest in targeted
 cancer treatments: K-Ras, N-Ras and B-Raf.
-
 
 Activating mutations of EGFR or its downstream proteins provide resistance to
 specific treatments. In that regard, the Institut National du Cancer (F) [11]
@@ -119,6 +118,7 @@ are clinically applicable, and a careful assessment of its analytical validity
 has to be performed.
 
 \subsection{Illumina MiSeq Sequencing Chemistry}
+
 \subsection{NGS Data Analysis}
 
 GATK best practices
@@ -150,6 +150,8 @@ artifacts into DNA sequences [17|. These circumstances complicate sample
 processing as well as NGS data interpretation. Though, FFPE samples have been
 shown to be still suitable for downstream analyses [18].
 
+FFPE = more details
+
 Sequencing library preparation also affects the final NGS result. Several
 technologies for target enrichment exist and are available for different
 sequencing instruments [19]. Essential for all these enrichment methods is the
@@ -169,6 +171,8 @@ circularization methods rely on a digestion of DNA by restriction enzymes. The
 produced DNA fragments are then circularized and uncircularized DNA fragments
 are removed by exonucleases. Only circularized target regions are then amplified
 by PCR.
+
+More details
 
 The establishment and validation of a bioinformatic NGS data analysis pipeline
 still constitutes a challenge in diagnostics. After generation of FASTQ files of
@@ -211,8 +215,13 @@ The aim of this thesis project was to test commercially available cancer gene pa
 e.g. Illumina Trusight Tumor 15 and Agilent Haloplex HS ClearSeq Cancer, for their
 potential use in the routine workflow of the laboratory. Several samples of cancer
 patients were prepared with both kits and were sequenced on the Illumina MiSeq device.
-Both kits vary in their sequencing library preparation principles, with each having
-its specific benefits.
+Both kits vary in their sequencing library preparation principles: Illumina's tst15
+uses the multiplex PCR approach while Agilent's Haloplex Enrichment System uses
+enzymatic DNA restriction followed by probe capture.
 
 NGS data were analyzed with the respective recommended pipelines and a custom in-house
+pipeline.
+
+Finally, several freely available variant calling algorithms were tested for their
+potential implementation in the custom in-house variant discovery bioinformatic
 pipeline.
