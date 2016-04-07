@@ -1,20 +1,31 @@
 \begin{thebibliography}{1}
 
+\bibitem{targeting_egfr:2012}
+M.~Berg, ``{E}{G}{F}{R} and downstream genetic alterations in
+  {K}{R}{A}{S}/{B}{R}{A}{F} and {P}{I}3{K}/{A}{K}{T} pathways in colorectal
+  cancer -- implictaions for targeted therapy,'' {\em Discovery Medicine},
+  vol.~14, no.~76, pp.~207--214, 2012.
+
 \bibitem{mutect:2013}
 K.~Cibulskis, M.~S. Lawrence, S.~L. Carter, A.~Sivachenko, D.~Jaffe,
   C.~Sougnez, S.~Gabriel, M.~Meyerson, E.~S. Lander, and G.~Getz, ``Sensitive
   detection of somatic point mutations in impure and heterogeneous cancer
   samples,'' {\em Computational Biology}, 2013.
 
-\bibitem{Breusch&Schmidt:88}
-T.~S. Breusch and P.~Schmidt, ``Alternative forms of the {W}ald test: How long
-  is a piece of string,'' {\em Communications in Statistics, Theory and
-  Methods}, vol.~17, pp.~2789--2795, 1988.
+\bibitem{cancer_stats_worldwide:2012}
+J.~Ferlay, I.~Soerjomataram, R.~Dikshit, S.~Eser, C.~Mathers, M.~Rebelo, D.~M.
+  Parkin, D.~Forman, and F.~Bray, ``Cancer incidence and mortality worldwide:
+  Sources, methods and major patterns in globocan 2012,'' {\em International
+  Journal of Cancer}, 2015.
 
-\bibitem{Gallant:87}
-K.~Cibulskis, M.~S. Lawrence, S.~L. Carter, A.~Sivachenko, D.~Jaffe,
-  C.~Sougnez, S.~Gabriel, M.~Meyerson, E.~S. Lander, and G.~Getz, ``Sensitive
-  detection of somatic point mutations in impure and heterogeneous cancer
-  samples,'' {\em Computational Biology}, 2013.
+\bibitem{cancer_stats:2012}
+R.~d.~d. Direction de~la Santé, Service des~statistiques, ``Statistiques des
+  causes de décès pour l'année 2014,'' 2014.
+
+\bibitem{enrichment_methods:2011}
+F.~Mertes, A.~E. Sharawy, S.~Sauer, J.~M. L.~M. van Helvoort, P.~van~der Zaag,
+  A.~Franke, M.~Nilsson, H.~Lehrach, and A.~J. Brookes, ``Targeted enrichment
+  of genomic dna regions for next-generation sequencing,'' {\em Briefings in
+  Functional Genomics}, vol.~10, no.~6, pp.~374--386, 2011.
 
 \end{thebibliography}

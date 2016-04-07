@@ -3,44 +3,52 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis_template.aux
 The style file: ieeetr.bst
 Database file #1: literature.bib
-You've used 3 entries,
+I was expecting a `,' or a `}'---line 59 of file literature.bib
+ :   
+ :   VOLUME =   {136},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Breusch&Schmidt:88"
+Warning--empty journal in cancer_stats:2012
+You've used 5 entries,
             1876 wiz_defined-function locations,
-            492 strings with 3973 characters,
-and the built_in function-call counts, 893 in all, are:
-= -- 66
-> -- 72
+            509 strings with 4720 characters,
+and the built_in function-call counts, 1382 in all, are:
+= -- 109
+> -- 98
 < -- 0
-+ -- 25
-- -- 22
-* -- 77
-:= -- 154
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 3
++ -- 35
+- -- 30
+* -- 118
+:= -- 231
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 37
-empty$ -- 68
-format.name$ -- 22
-if$ -- 195
+cite$ -- 6
+duplicate$ -- 61
+empty$ -- 112
+format.name$ -- 30
+if$ -- 307
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 12
-num.names$ -- 3
-pop$ -- 10
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 5
+pop$ -- 16
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 20
+skip$ -- 31
 stack$ -- 0
-substring$ -- 40
-swap$ -- 13
+substring$ -- 64
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 6
-width$ -- 4
-write$ -- 28
+warning$ -- 1
+while$ -- 11
+width$ -- 6
+write$ -- 47
+(There was 1 error message)

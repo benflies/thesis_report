@@ -1,124 +1,76 @@
 \section{Results}\label{Sec:Results}
 
-\begin{itemize}
-
-\item Organize material and present results.
-
-\item Use tables, figures (but prefer visual presentation):
-\begin{itemize}
-\item Tables and figures should supplement (and not duplicate) the
-text.
-
-\item Tables and figures should be provided with
-legends.\\
-{\it Figure \ref{Fig:Resids} shows how to include and reference
-graphics. The graphic must be labelled before. Files must be in
-\texttt{.eps} format.}
-
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[scale=0.5,angle=0]{graph}
-\caption{Estimated residuals from model XXX. ...}
-\label{Fig:Resids}
-\end{center}
-\end{figure}
-
-\item Tables and graphics may appear in the text or in
-the appendix, especially if there are many simulation results
-tabulated, but is also depends on the study and number of tables resp.
-figures. The key graphs and tables must appear in
-the text!
-\end{itemize}
-
-\item Latex is really good at rendering formulas:\\
-{\it Equation (\ref{Eq:SpecDens}) represents the ACs of a stationary
-stochastic process:
-\begin{equation}
-f_y(\lambda) = (2\pi)^{-1} \sum_{j=-\infty}^{\infty}
-\gamma_j e^{-i\lambda j}
-=(2\pi)^{-1}\left(\gamma_0 + 2 \sum_{j=1}^{\infty}
-\gamma_j \cos(\lambda j)\right)
-            \label{Eq:SpecDens}
-\end{equation}
-where $i=\sqrt{-1}$ is the imaginary unit, $\lambda \in [-\pi,
-\pi]$ is the frequency and the $\gamma_j$ are the autocovariances
-of $y_t$.}
-
-\newpage
-
-\item Discuss results:
-\begin{itemize}
-\item Do the results support or do they contradict economic theory ?
-\item What does the reader learn from the results?
-\item Try to give an intuition for your results.
-\item Provide robustness checks.
-\item Compare to previous research.
-\end{itemize}
-\end{itemize}
-
 \subsection{Sample Preparation}
-FFPE <-> library concentration
 
-Pictures of Bioanalyzer
+Before pooling the adaptor-ligated and indexed sequencing libraries, the sucess of
+library preparation is validated using the Agilent Bioanalyzer instrument. \ref{fig:f1}
+and \ref{fig:f2} show representative electropherograms of a sample that has been
+processed using both kits. The expected DNA products should be detected at 175-600 bp
+for Haloplex CSC and 200-400 for TST15.
 
-\begin{figure}[!tbp]
+\begin{figure}[!htbp]
   \centering
-  \subfloat[Overlayed Electropherograms of Four Representative Libraries Prepared with Agilent Haloplex CSC]{\includegraphics[width=0.45\textwidth]{graph.pdf}\label{fig:f1}}
+  \subfloat[Agilent Haloplex CSC (High Sensitivity DNA Chip)]{\includegraphics[width=0.45\textwidth]{fastq_halo_forward.png}\label{fig:f1}}
   \hfill
-  \subfloat[Overlayed Electropherograms of Four Representative Libraries Prepared with Illumina TST15 (MixA \& MixB)]{\includegraphics[width=0.45\textwidth]{graph.pdf}\label{fig:f2}}
-  \caption{Comparison of Agilent Bioanalyzer Electropherograms}
+  \subfloat[Illumina TST15 (MixA) (DNA 1000 DNA Chip)]{\includegraphics[width=0.45\textwidth]{fastq_halo_forward.png}\label{fig:f2}}
+  \caption{Electropherograms of representative sequencing libraries prepared by Agilent Haloplex ClearSeq Cancer and Illumina TruSight Tumor 15. (*) represents the lower marker, (**) represents the upper marker}
 \end{figure}
+
+\begin{figure}[!htbp]
+  \begin{center}
+    \includegraphics[scale=0.75,angle=0]{graph.pdf}
+    \caption{Scatter plot of the corrected peak area (X axis) of the regions corresponding to the sequencing libraries defined in the blabla software and the dCt (Y axis). Agilent Haloplex ClearSeq Cancer data are represented as blue dots, Illumina TruSight Tumor 15 data are represented as red dots.}
+    \label{Fig:bioanalyzer_scatter}
+  \end{center}
+\end{figure}
+
+Using the blablabla software, the concentration, molarity and total peak area (TPA)
+of the expected sequencing libraries were calculated.
+
+Hopefully: there is a relationship between dCt and TPA. Maybe: Haloplex is more
+affected by bad dCt values.
 
 \subsection{NGS Data Quality}
 
-Illumina Sequencing Viewer
+Sequencing run parameters were calculated by the Illumina Sequencing Viewer software.
+Table XXX shows the averaged run parameters of runs with Haloplex CSC and TST15
+sample preparation.
 
 \begin{table}[!htbp]
     \caption[ISV]{Comparison of Run Parameters (Averaged) of Sequencing Runs with Haloplex CSC \& TST15 Sample Preparation}
     \centering
-    \begin{tabular}{ |p{4cm}||p{4cm}||p{4cm}|}
+    \begin{tabular}{ |p{4.5cm}|p{2cm}|p{2cm}|}
     \hline
-    Parameter & Haloplex CSC & TST15 \\ \hline \hline
-    Yield total (Gb) & 3.7 & 7.37 \\ \hline
-    \% \textgreater Q30 & 93.8 & 82.355 \\ \hline
-    Cluster Density PF (k/mm2) & 1084 & 1180  \\ \hline
-    Cluster Density PF (%) & 85.95 & 79.95  \\ \hline
+    Parameter & Haloplex CSC & TST15 \\ \hline
+    Yield total (Gb) & 3.7 & 7.37 \\
+    \% \textgreater Q30 & 93.8 & 82.355 \\
+    Cluster Density PF (k/mm2) & 1084 & 1180  \\
+    Cluster Density PF (\%) & 85.95 & 79.95 \\
+    \hline
+    \label{sequencing_viewer}
   \end{tabular}
 \end{table}
-
 
 TST15 has a higher cluster density and therefore a higher total yield, but has
 lower reads passing a phred-score threshold of Q30 than Haloplex. This is due to
 the different chemistries used. TST15 uses v3 chemistry, while Haloplex uses v2.
 v2 generally has lower cluster density and output, but therefore better quality.
 
-FASTQC
 \begin{figure}[!tbp]
   \centering
-  \subfloat[hpx_csc_fastqc]{\includegraphics[width=0.45\textwidth]{fastq_halo_forward.png}\label{fig:amp_dist_hpx}}
+  \subfloat[Agilent Haloplex ClearSeq Cancer]{\includegraphics[width=0.5\textwidth]{fastq_halo_forward.png}\label{fig:amp_dist_hpx}}
   \hfill
-  \subfloat[tst15_fastqc]{\includegraphics[width=0.45\textwidth]{fastq_tst15_forward.png}\label{fig:amp_dist_tst}}
-  \caption{Comparison of Coverage Distributions per Amplicon}
+  \subfloat[Illumina TruSight Tumor 15]{\includegraphics[width=0.5\textwidth]{fastq_tst15_forward.png}\label{fig:amp_dist_tst}}
+  \caption{Comparison of coverage distributions per amplicon as reported by FastQC}
 \end{figure}
 
-\begin{minipage}{0.5\textwidth}
-The Samtools Flagstat command was used to determine some basic BAM statistics of BAM
-files of samples prepared with the respective library preparations and processed with
-the mentioned bioinformatic pipelines. \ref{table:samtools_flagstat} shows the
-averaged result of these statistics. Considering the recommended pipelines, Haloplex
-CSC data, analyzed with Agilent's SureCall software, has a higher percentage (91\%) of mapped
-reads when compared to Illumina's BaseSpace TruSight Tumor 15 App (62.9\%). Data analysis
-with the recommended SureCall design includes a steps where mates are fixed, but they
-are not stitched together. Therefore no reads are considered as being paired. The TST15 app
-in contrast includes a read stitching step and 58\% are considered as properly paired.
-This means that of the 62.6\% of mapped reads, 4.2\% are not properly paired. 3.8\%
-of reads processed with the TST15 online App are considered to be singletons, whereas
-only 1.8\% of reads processed with the SureCall software are considered as singletons.
-\end{minipage}
-\hfill
-\begin{minipage}{0.5\textwidth}
-\captionof{table}{Your caption here}
-\begin{tabular}{p{3cm} p{1.5cm} p{1.5cm}}\\
+Table XXX shows the boxplot representations of the read qualities per position
+of two representative FASTQ files as reported by FastQC. Both workflows yield high
+quality data, yet Haloplex CSC data have more narrow distributions and are of higher
+quality. This is in direct relationship with the sequencing chemistry kit used.
+
+\begin{table}
+\begin{tabular}{p{3.5cm} p{1cm} p{1cm}}\\
 \hline
 Parameter & Haloplex CSC & TST15 \\
 \hline
@@ -127,7 +79,22 @@ Parameter & Haloplex CSC & TST15 \\
 \% singletons & 1.8 & 3.8 \\
 \label{samtools_flagstat}
 \end{tabular}
-\end{minipage}
+\end{table}
+
+The Samtools Flagstat command was used to determine some basic BAM statistics of BAM
+files of samples prepared with the respective library preparations and processed with
+the mentioned bioinformatic pipelines. \ref{table:samtools_flagstat} shows the
+averaged result of these statistics.
+
+Considering the recommended pipelines, Haloplex
+CSC data, analyzed with Agilent's SureCall software, has a higher percentage (91\%) of mapped
+reads when compared to Illumina's BaseSpace TruSight Tumor 15 App (62.9\%). Data analysis
+with the recommended SureCall design includes a steps where mates are fixed, but they
+are not stitched together. Therefore no reads are considered as being paired. The TST15 app
+in contrast includes a read stitching step and 58\% are considered as properly paired.
+This means that of the 62.6\% of mapped reads, 4.2\% are not properly paired. 3.8\%
+of reads processed with the TST15 online App are considered to be singletons, whereas
+only 1.8\% of reads processed with the SureCall software are considered as singletons.
 
 \subsection{Coverage Analysis}
 
@@ -138,9 +105,9 @@ Coverage Distribution per Patient (check if correlation IQR with dCt)
 Coverage Distribution per Amplicon (check if some have always lower coverage, check if some failed)
 \begin{figure}[!tbp]
   \centering
-  \subfloat[Agilent Haloplex ClearSeq Cancer]{\includegraphics[width=0.45\textwidth]{distribution_amplicons_hap_csc.png}\label{fig:amp_dist_hpx}}
+  \subfloat[Agilent Haloplex ClearSeq Cancer]{\includegraphics[width=0.5\textwidth]{distribution_amplicons_hap_csc.png}\label{fig:amp_dist_hpx}}
   \hfill
-  \subfloat[Illumina TruSight Tumor 15]{\includegraphics[width=0.45\textwidth]{graph.pdf}\label{fig:amp_dist_tst}}
+  \subfloat[Illumina TruSight Tumor 15]{\includegraphics[width=0.5\textwidth]{distribution_amplicons_hap_csc.png}\label{fig:amp_dist_tst}}
   \caption{Comparison of Coverage Distributions per Amplicon}
 \end{figure}
 
@@ -170,7 +137,7 @@ Blabla & 500 & 5 \\
 \end{minipage}
 \hfill
 \begin{minipage}{0.5\textwidth}
-\captionof{table}{Your caption here}
+\captionof{table}{Failed Amplicons in Illumina TruSight Tumor 15}
 \begin{tabular}{p{3cm} p{1.5cm} p{1.5cm}}\\
 \hline
 Amplicon & Coverage Failed & No of Samples \\

@@ -17,22 +17,41 @@ into separate sections.
 
 \subsection{Library Preparation}
 \subsubsection{Patients}
+Melanoma
+Non-Small Cell Lun Carcinoma (NSCLC)
+metastatic colorectal cancer (mCRC)
+Chronic lymphocytic leukemia (CLL) were extracted from blood and did not undergo
+FFPE treatment -> were used as some kind of good quality samples & to see if there
+are really more C>T variants in FFPE samples.
+
 \subsubsection{DNA Extraction, Quantification & Quality Control}
 \paragraph{DNA Extraction}
+Kit from Qiagen
 \paragraph{Quantification}
+Qubit fluorometer, either High Sensitivity kit or Broad Range
 \paragraph{Quality Control}
+Illumina Infinium FFPE QC Assay kit
 \subsubsection{Agilent Haloplex ClearSeq Cancer}
+
 \subsubsection{Illumina TruSight Tumor 15}
+
 \subsection{Bioinformatic Analysis}
+
 \subsubsection{Agilent SureCall}
-Computer bla, 3.00GHz, 16GB RAM
+With alignment algorithms installed
+Windows System, 3.00GHz, 16GB RAM\$
+modifiable
 \subsubsection{Illumina BaseSpace TruSight Tumor 15 App}
 Cloud-based
-\subsubsection{Custom Pipeline (Velona)}
-Linux system
+parameters not modifiable
+\subsubsection{Custom In-House Pipeline (Velona)}
+Linux System
 \subsubsection{Variant Calling Algorithms}
-\paragraph{Mutect1.1.7}
-{\it \citet{Gallant:87}}
-\paragraph{SomVarIUS}
-\paragraph{VarScan 2}
+Tested on Linux Ubuntu 14.04.4 LTS \'Trusty Tahr\' installed on VMware virtual box
+with of 12GB RAM
 \paragraph{GATK HaplotypeCaller}
+\paragraph{VarScan 2}
+\paragraph{Mutect1.1.7}
+{\cite{mutect:2013}}
+\paragraph{SomVarIUS}
+\newpage

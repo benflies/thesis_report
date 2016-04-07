@@ -26,6 +26,7 @@ Alternative Forms of the Wald test are considered
 
 \end{itemize}
 
+<<<<<<< HEAD
 >>> Internship Report
 
 The accumulation of DNA mutations is a characteristic of tumors. Mutations in a cell’s genetic material enable the so-called cancer hallmarks, which include, amongst others, capabilities as activating invasion and metastasis, enabling replicative immortality, sustaining proliferative signaling or evading growth suppressors. Classical anti-cancer treatments are tailored for the „average patient“ and not for the individual. Traditional cytotoxic chemotherapeutic drugs, for instance, are unspecific and have numerous adverse effects [1]: they attack rapidly dividing cells and make no difference between healthy and cancer cells. For a long time, there was no possibility to predict the success of a patient’s cancer treatment. In consequence, the treating clinician had no way to personalize the treatment to the individual patient.
@@ -61,12 +62,66 @@ In clinical practice, minimally invasive fine needle aspiration (FNA) is a helpf
 In some instances, however, cytological specimens may be the only material available for molecular testing. If the tumor is locally advanced or metastatic, surgical resection is not performed.1, 6 In some patients, tumor size, location or co-morbid conditions may preclude concurrent core needle or excisional biopsy.1
 
 \subsection{EGFR Signaling Cascade}
+=======
+Cancer is a major public health problem worldwide and one of the leading death
+causes. In 2012, there were an estimated 14.1 million new cancer cases with
+estimated  8.2 million cancer deaths {\cite{cancer_stats_worldwide:2012}}. Lung
+cancer is the most common cancer, both in terms of new cases (1.8 million) and
+deaths (1.6 million). Breast  cancer is the second most common cancer (1.7
+million cases) but only ranks 5th as cause of death (522,000 deaths). Colorectal
+cancer (1.4 million cases; 694,000 deaths), prostate cancer (1.1 million cases;
+307,000 deaths), stomach cancer (951,000 cases; 723,000 deaths) and liver cancer
+(782,000 cases; 723,000 deaths) are following.
+
+In Luxembourg, there were 1164 death cases caused by cancer in 2014, accounting
+for 30.6\%  of the number of deaths. Cancer is thereby the second most common
+death cause in Luxembourg, ranging behind cardiovascular diseases (1189 deaths;
+31.3\%). Amongst these cancer deaths, cancers of the digestive organs (340
+deaths) and of the respiratory organs (272 deaths) were the most frequent ones.
+{\cite{cancer_stats:2012}}.
+
+(Considerable effort is made by the research
+community to understand the underlying causes of cancer and its progression, but
+death rate related to cancer remains high. In Luxembourg, the death rate did not
+significantly drop from 1998 to 2014.)
+
+In recent years, more targeted drugs. personalized medicine.
+
+Next-Generation Sequencing (NGS) is a powerful method to analyze RNA or DNA
+molecules. Improved protocols and methods have been developed in recent years
+that allow to implement NGS for a variety of applications in both research and
+diagnostics. NGS is still hard to implement and is mainly used in research. Only
+a few laboratories are using this technique as a diagnostic technique.The SGMB
+is building expertise in NGS and is implementing targeted NGS in its molecular
+pathology laboratory. This implementation aims at gaining deep insights into the
+underlying causes of solid tumors and in guiding targeted cancer therapy.
+
+The goal of this master's thesis was to compare commercially available cancer
+gene panels on samples of solid tumor patients by several parameters and by
+their ability to detect variants, which have previously been detected in the
+routine mutation detection workflow in the laboratory. As a second part, several
+freely available variant calling algorithms were compared for their potential
+implementation in the custom in-house variant detection bioinformatic pipeline.
+
+\subsection{EGFR Signaling in Cancer}
+
+Bla {\cite{targeting_egfr:2012}}
+>>>>>>> a5147a619d3523c598b91a86e2c62e19a96fd26f
 
 Describe pathway
 
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[scale=1,angle=0]{egfr_signaling.png}
+    \caption{Schematic representation of the EGFR signaling cascade {\cite{targeting_egfr:2012}}}
+    \label{Fig:egfr_signaling}
+  \end{center}
+\end{figure}
+
 Common mutations in this pathway
 
-EGFR-targeted drugs
+EGFR-targeted drugs:
+bevacizumab, cetuximab, panitumumab, ...
 
 The samples analyzed in the SGMB originate from patients suffering from solid tumors, mainly melanoma, non-small cell lung carcinoma (NSCLC), and colorectal cancer. Evidence suggests that many solid tumors use and modify EGFR (Epithelial Growth Factor Receptor) signaling for their purposes [4]. Targeting this signaling pathway is thereby an attractive anti-cancer treatment. In this regard, anti-EGFR monoclonal antibodies (cetuximab (Erbitux®) and panitumumab (Vectibix®) and tyrosine kinase inhibitors (erlotinib (Tarceva®) and gefitinib (Iressa®)) have shown their usefulness in cancer treatments [5]. EGFR and downstream proteins K-Ras / N- Ras and B-Raf are predictive biomarkers for the successfulness of the administration of the mentioned drugs [6]. Comprehensive information about these markers is thereby essential when choosing a suitable treatment in order to minimize treatment- associated side-effects and to maximize the benefits of the treatment.
 
@@ -76,11 +131,26 @@ Activating mutations of EGFR or its downstream proteins provide resistance to sp
 
 \subsection{Targeted Sequencing and Target Enrichment Methods}
 
+<<<<<<< HEAD
 Several NGS bench-top devices have become available in the last decade. These instrumentations differ in their underlying chemistry that influences the instrument’s performance, accuracy, output and time per run. Common sequencing principles include pyrosequencing (454), sequencing by ligation (SOLiD), ion semiconductor (Ion Torrent) and sequencing by synthesis (Illumina) [12]. Even though advances in sequencing technology and computational power and tools have decreased the time and cost of a sequencing experiment, NGS is still mainly used in research, with only a few laboratories using this technique in diagnostics.
 
 In fact, validation of a NGS methodology requires careful assessment of methods and tools [13]. Therefore, each step that is performed from the initial starting material to sample processing, sequencing library preparation, sequencing assay and bioinformatic processing has to be carefully checked for sources of potential errors or variability. Basically, in the validation process, it is checked whether the method measures what it claims to measure with the required sensitivity and sensibility.
 
 With the success of NGS, many cancer genomes have been sequenced and made available to the worldwide research community. Companies, molecular diagnostics laboratories and academic centers are trying to use these big data for their purposes. A lot of mutations are described in these genomes, but only a small fraction of them are clinically actionable, e.g. can be targeted with specific drugs. Therefore, a molecular pathology laboratory does not need to perform whole-genome or -exome sequencing, but can employ targeted NGS to analyze some genes of interest, which include mutations for which there exists a clinical utility. Due to the low number of target regions, targeted NGS allows high coverage. In addition, it is a time- and cost- efficient alternative to whole-genome or -exome sequencing. Also, targeted NGS results in a significantly lower amount of produced data and thereby eases data storage and analysis time. Table 1 shows a selection of commercially available cancer gene panels, which all allow to analyze selected regions of genes implicated in cancerogenesis. Before implementing one of these panels for molecular diagnostics, it has to be ensured that the panel allows to study the genes of interest, e.g. genes that are clinically applicable, and a careful assessment of its analytical validity has to be performed.
+=======
+Sanger Sequencing
+
+Human Genome Project
+
+Benchtop sequencing devices: more labs can now do sequencing as it becomes faster
+& cheaper & more reliable. 
+
+More & more databases describing SNPs & known pathogenic hotspots
+
+targeted sequencing as um kommen, cost-effective & fast & high-coverage
+
+Bla {\cite{enrichment_methods:2011}}
+>>>>>>> a5147a619d3523c598b91a86e2c62e19a96fd26f
 
 Hybrid capture
 
@@ -88,7 +158,11 @@ Selective circularization
 
 PCR amplification
 
-\subsection{Illumina MiSeq Sequencing Chemistry}
+\subsection{Sequencing Chemistries}
+
+IonTorrent, etc
+
+\subsubsection{Illumina MiSeq}
 
 http://www.illumina.com/documents/products/techspotlights/techspotlight_sequencing.pdf
 
@@ -132,6 +206,7 @@ GATK best practices
 
 FFPE : more details
 
+<<<<<<< HEAD
 The quality of the genetic testing of the tumor is affected by several factors. These include the content of tumor cells in the sample, the quality of the tissue material, sequencing library preparation and the the bioinformatic pipeline.
 
 The biopsy usually consists of healthy and cancer cells. The sensitivity of tumor variant detection is linked to the tumor cell content of the specimen. In addition, cancers are highly heterogenous, e.g. a small subpopulation might present mutations that provide resistance to targeted treatment. Detecting these low-frequency mutations and clearly separating them from eventual high-frequency fixation or sequencing artifacts presents a huge challenge [14].
@@ -145,6 +220,88 @@ The establishment and validation of a bioinformatic NGS data analysis pipeline s
 To facilitate interpretation of NGS data, variants have to be annotated and their clinical actionability has to be identified. Several databases have emerged in this field (such as mycancergenome.org) and numerous tools allow to automatize variant annotation. Here again, the choice of the database and the variant annotator is important.
 
 Finally, the sample-to-results time is a very pragmatic, but important factor. The time from the biopsy to the potential start of an administration of a targeted chemotherapeutic drug should be reduced to a minimum. For instance, in case of late-stage cancer patients, it would be unacceptable if analysis would take several weeks. To reduce the sample-to-results time to under two weeks, the sample processing workflow should be as short as possible, while still yielding high quality sequencing libraries. The bioinformatic pipeline should not only incorporate the best tools, but should also be automatized to further reduce the time of analysis.
+=======
+Chemical fixatives are used to preserve tissue from degradation, and to maintain
+the structure of the cell and of sub-cellular components such as cell organelles
+(e.g., nucleus, endoplasmic reticulum, mitochondria). The most common fixative
+for light microscopy is 10% neutral buffered formalin (4% formaldehyde in
+phosphate buffered saline).
+
+These fixatives preserve tissues or cells mainly by irreversibly cross-linking
+proteins. The main action of these aldehyde fixatives is to cross-link amino
+groups in proteins through the formation of methylene bridges (-CH2-), in the
+case of formaldehyde.
+
+This process, while preserving the structural integrity of the cells and tissue
+can damage the biological functionality of proteins, particularly enzymes, and
+can also denature them to a certain extent. This can be detrimental to certain
+histological techniques.
+
+Formalin fixation leads to degradation of mRNA, miRNA and DNA in tissues.
+However, extraction, amplification and analysis of these nucleic acids from
+formalin-fixed, paraffin-embedded tissues is possible using appropriate
+protocols.
+
+The aim of Tissue Processing is to remove water from tissues and replace with a
+medium that solidifies to allow thin sections to be cut. Biological tissue must
+be supported in a hard matrix to allow sufficiently thin sections to be cut,
+typically 5 μm (micrometres; 1000 micrometres = 1 mm) thick for light microscopy.
+
+Since it is immiscible with water, the main constituent of biological tissue,
+water must first be removed in the process of dehydration. Samples are
+transferred through baths of progressively more concentrated ethanol to remove
+the water. This is followed by a hydrophobic clearing agent (such as xylene) to
+remove the alcohol, and finally molten paraffin wax, the infiltration agent,
+which replaces the xylene. Paraffin wax does not provide a sufficiently hard
+matrix for cutting very thin sections for electron microscopy. Instead, resins
+are used. Epoxy resins are the most commonly employed embedding media, but
+acrylic resins are also used, particularly where immunohistochemistry is
+required. Thicker sections (0.35μm to 5μm) of resin-embedded tissue can also be
+cut for light microscopy. Again, the immiscibility of most epoxy and acrylic
+resins with water necessitates the use of dehydration, usually with ethanol.
+
+After the tissues have been dehydrated, cleared, and infiltrated with the
+embedding material, they are ready for external embedding. During this process
+the tissue samples are placed into molds along with liquid embedding material
+(such as agar, gelatine, or wax) which is then hardened. This is achieved by
+cooling in the case of paraffin wax and heating (curing) in the case of the
+epoxy resins. The acrylic resins are polymerised by heat, ultraviolet light, or
+chemical catalysts. The hardened blocks containing the tissue samples are then
+ready to be sectioned.
+
+Because Formalin-fixed, paraffin-embedded (FFPE) tissues may be stored
+indefinitely at room temperature, and nucleic acids (both DNA and RNA) may be
+recovered from them decades after fixation, FFPE tissues are an important
+resource for historical studies in medicine.
+
+For light microscopy, a steel knife mounted in a microtome is used to cut
+4-micrometer-thick tissue sections which are mounted on a glass microscope
+slide. For transmission electron microscopy, a diamond knife mounted in an
+ultramicrotome is used to cut 50-nanometer-thick tissue sections which are
+mounted on a 3-millimeter-diameter copper grid. Then the mounted sections are
+treated with the appropriate stain.
+
+quantitation
+
+ffpe quality control necessary. FFPE are degraded. More C>T
+
+Target enrichment methods hun och vlt en effekt
+
+choice vum sequencer, different error rates, different yield, analysis time.
+
+choice vun den bioinformatic tools. t'gin der vill, vir- an nodeeler. zB variant
+calling algorithms: most are for haplotypes and not for somatic variants. many
+need matched tumor-normal samples, which we here in the lab do not have, only have
+tumor dna. after variant calling, they have to be annotated for their clinical
+relevance and potential actionability.
+
+problem: many variants may be found, some of them may be
+harmless germline SNPs, many variants may be causative of cancer, but are not actionable.
+
+time sample-to-result
+
+how to report? all results or only those that are known to be actionable.
+>>>>>>> a5147a619d3523c598b91a86e2c62e19a96fd26f
 
 \subsection{Aims of the Thesis}
 Targeted NGS is still not widely used in diagnostics laboratories. The SGMB of the LNS

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.18)  6 APR 2016 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.18)  7 APR 2016 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,16 +349,235 @@ l.57 }{}
 \c@lotdepth=\count123
 \sf@top=\skip55
 \sf@bottom=\skip56
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/helvet.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 14.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 15.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 14.
+(Font)              scaled to size 10.07397pt on input line 15.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrpage2.sty
 Package: scrpage2 2015/05/06 v3.17a KOMA-Script package (page head and foot)
@@ -386,26 +605,26 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 ...mand\NAT@force@numbers{}\NAT@force@numbers
+l.106 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 ? 
 )
 \openout1 = `thesis_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
@@ -413,12 +632,12 @@ LaTeX Font Info:    ... okay on input line 79.
 \scratchbox=\box29
 \nofMPsegments=\count125
 \nofMParguments=\count126
-\everyMPshowfont=\toks27
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count127
 \MPscratchDim=\dimen144
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks28
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -435,7 +654,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 81.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -445,9 +664,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 (./thesis_template.out) (./thesis_template.out)
 \@outlinefile=\write3
@@ -498,16 +717,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ! Misplaced alignment tab character &.
 <argument> ...destname }{\numberline {2}Material &
                                                    Methods}\hyper@linkend 
-l.11 ...line {2}Material & Methods}{10}{section.2}
+l.13 ...line {2}Material & Methods}{15}{section.2}
                                                   
 ? 
 ! Misplaced alignment tab character &.
 <argument> ...1.2}DNA Extraction, Quantification &
                                                    Quality Control}\hyper@li...
-l.14 ... Quality Control}{10}{subsubsection.2.1.2}
+l.16 ... Quality Control}{16}{subsubsection.2.1.2}
                                                   
 ? 
-)
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 ...on}{\numberline {3}Results}{18}{section.3}
+                                                   [2])
 \tf@toc=\write4
 \openout4 = `thesis_template.toc'.
 
@@ -515,8 +739,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 \clearpage
-                 [2] (./abbreviations.tex
+l.116 \clearpage
+                 [3] (./abbreviations.tex
 Overfull \hbox (1.21478pt too wide) in paragraph at lines 6--6
 []\OT1/phv/m/n/10.95 SGMB| 
  []
@@ -554,149 +778,175 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
 l.8 -> Implementation of Cancer Gene Panels &
                                               Variant Calling Algorithms
 ? 
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no û in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ú in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
+
+Package natbib Warning: Citation `Breusch&Schmidt:88' on page 1 undefined on in
+put line 18.
+
+
+! LaTeX Error: Command \quotedblbase unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...cancer treatments are tailored for the ‚Äû
+                                                  average patient‚Äú and not...
+
+? 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 
+l.35 
       [1]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
-Missing character: There is no √ in font phvr7t!
-Missing character: There is no ó in font phvr7t!
- [2]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
 
-Overfull \hbox (2.22119pt too wide) in paragraph at lines 45--49
+! Package inputenc Error: Unicode char \u8:√ó not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...f the sequencing laboratories (100‚Äì250√ó
+                                                  ), may have limited abilit...
+
+? 
+[2]
+Overfull \hbox (2.22119pt too wide) in paragraph at lines 46--50
 \OT1/phv/m/n/10.95 col-ogy through in-te-gra-tive high-throughput se-quenc-ing:
  a pi-lot study. Sci Transl Med 2011;3:111ra21.
  []
 
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
 [3]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 63.
+(Font)              scaled to size 11.03998pt on input line 64.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 63.
-Missing character: There is no ¬ in font phvr7t!
-Missing character: There is no Æ in font phvr7t!
-Missing character: There is no ¬ in font phvr7t!
-Missing character: There is no Æ in font phvr7t!
-Missing character: There is no ¬ in font phvr7t!
-Missing character: There is no Æ in font phvr7t!
-Missing character: There is no ¬ in font phvr7t!
-Missing character: There is no Æ in font phvr7t!
- [4]
-Missing character: There is no Œ in font phvr7t!
-Missing character: There is no ± in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
+(Font)              scaled to size 11.03998pt on input line 64.
+ [4] <egfr_signaling.png, id=231, 185.7339pt x 128.1588pt>
+File: egfr_signaling.png Graphic file (type png)
+
+<use egfr_signaling.png>
+Package pdftex.def Info: egfr_signaling.png used on input line 115.
+(pdftex.def)             Requested size: 185.73344pt x 128.15848pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 126.
  [5]
+
+! Package inputenc Error: Unicode char \u8:Œ± not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 ...d-binding domain. Upon ligand (EGF, TGFŒ±
+                                                  ) binding, EGFR becomes ac...
+
+? 
+[6 <./egfr_signaling.png (PNG copy)>] [7]
+! Misplaced alignment tab character &.
+l.146 &
+        cheaper & more reliable.
+? 
+! Misplaced alignment tab character &.
+l.146 & cheaper &
+                  more reliable.
+? 
+! Misplaced alignment tab character &.
+l.148 More &
+             more databases describing SNPs & known pathogenic hotspots
+? 
+! Misplaced alignment tab character &.
+l.148 More & more databases describing SNPs &
+                                              known pathogenic hotspots
+? 
+! Misplaced alignment tab character &.
+l.150 ...sequencing as um kommen, cost-effective &
+                                                   fast & high-coverage
+? 
+! Misplaced alignment tab character &.
+l.150 ...ing as um kommen, cost-effective & fast &
+                                                   high-coverage
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.93 ...nts/products/techspotlights/techspotlight_
+l.167 ...ts/products/techspotlights/techspotlight_
                                                   sequencing.pdf
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.94 
-     
+l.168 
+      
 ? 
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ì in font phvr7t!
-[6]
+[8]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.103 https://en.wikipedia.org/wiki/Illumina_
+l.177 https://en.wikipedia.org/wiki/Illumina_
                                              dye_sequencing
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.104 
+l.178 
       
 ? 
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ú in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ù in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ú in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ù in font phvr7t!
-[7]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ú in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ù in font phvr7t!
- [8]
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
-Missing character: There is no ‚ in font phvr7t!
-Missing character: There is no Ä in font phvr7t!
-Missing character: There is no ô in font phvr7t!
- [9]
-Missing character: There is no Ã in font phvr7t!
-Missing character: There is no Å in font phvr7t!
- [10]) (./methods.tex
+[9] [10] [11]
+
+! Package inputenc Error: Unicode char \u8:ÃÅ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.214 ...nt to the Laboratoire National de SanteÃÅ
+                                                   (LNS) to the Service of P...
+
+? 
+[12]
+
+! Package inputenc Error: Unicode char \u8:Œº not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 typically 5 Œº
+                    m (micrometres; 1000 micrometres = 1 mm) thick for light...
+
+? 
+[13]
+
+! Package inputenc Error: Unicode char \u8:Œº not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 required. Thicker sections (0.35Œº
+                                        m to 5Œºm) of resin-embedded tissue ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:Œº not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 required. Thicker sections (0.35Œºm to 5Œº
+                                                m) of resin-embedded tissue ...
+
+? 
+[14]
+Overfull \hbox (149.7789pt too wide) in paragraph at lines 303--305
+[]\OT1/phv/m/n/10.95 how to re-port? all re-sults or only those that are known 
+to be ac-tion-able. >>>>>>> a5147a619d3523c598b91a86e2c62e19a96fd26f 
+ []
+
+) (./methods.tex
 ! Misplaced alignment tab character &.
 <argument> Material &
                       Methods
@@ -707,199 +957,156 @@ l.1 \section{Material & Methods}
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `alignment tab' on input line 1.
 
-[11]
+! Misplaced alignment tab character &.
+l.24 ...sed as some kind of good quality samples &
+                                                   to see if there
+? 
+[15]
 ! Misplaced alignment tab character &.
 <argument> DNA Extraction, Quantification &
                                             Quality Control
-l.20 ...raction, Quantification & Quality Control}
+l.27 ...raction, Quantification & Quality Control}
                                                   
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 20.
+(hyperref)                removing `alignment tab' on input line 27.
 
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 10.07397pt on input line 35.
+[16] [17]) (./results.tex
+<fastq_halo_forward.png, id=303, 842.14626pt x 601.24625pt>
+File: fastq_halo_forward.png Graphic file (type png)
 
-Package natbib Warning: Author undefined for citation`Gallant:87' 
-(natbib)                on page 12 on input line 35.
-
-[12]) (./results.tex <graph.pdf, id=249, 361.35pt x 303.1325pt>
-File: graph.pdf Graphic file (type pdf)
-
-<use graph.pdf>
-Package pdftex.def Info: graph.pdf used on input line 20.
-(pdftex.def)             Requested size: 180.67456pt x 151.56587pt.
- [13 <./graph.pdf>] [14]
-File: graph.pdf Graphic file (type pdf)
- <use graph.pdf>
-Package pdftex.def Info: graph.pdf used on input line 66.
-(pdftex.def)             Requested size: 198.45662pt x 166.48286pt.
+<use fastq_halo_forward.png>
+Package pdftex.def Info: fastq_halo_forward.png used on input line 13.
+(pdftex.def)             Requested size: 198.45662pt x 141.68738pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 66.
+(Font)              scaled to size 8.27998pt on input line 13.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.27998pt on input line 66.
+(Font)              scaled to size 8.27998pt on input line 13.
+File: fastq_halo_forward.png Graphic file (type png)
+ <use fastq_halo_forward.png>
+Package pdftex.def Info: fastq_halo_forward.png used on input line 15.
+(pdftex.def)             Requested size: 198.45662pt x 141.68738pt.
+
+<graph.pdf, id=304, 361.35pt x 303.1325pt>
 File: graph.pdf Graphic file (type pdf)
  <use graph.pdf>
-Package pdftex.def Info: graph.pdf used on input line 68.
-(pdftex.def)             Requested size: 198.45662pt x 166.48286pt.
-LaTeX Font Info:    Try loading font information for OML+phv on input line 83.
+Package pdftex.def Info: graph.pdf used on input line 21.
+(pdftex.def)             Requested size: 271.01184pt x 227.34882pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]\OT1/phv/m/n/10.95 Haloplex
+ []
+
+LaTeX Font Info:    Try loading font information for OML+phv on input line 46.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlphv.fd
 File: omlphv.fd 
 )
 LaTeX Font Info:    Font shape `OML/phv/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 83.
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]\OT1/phv/m/n/10.95 Cluster Den-sity PF
- []
-
-<fastq_halo_forward.png, id=277, 842.14626pt x 601.24625pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 46.
 File: fastq_halo_forward.png Graphic file (type png)
 
 <use fastq_halo_forward.png>
-Package pdftex.def Info: fastq_halo_forward.png used on input line 98.
-(pdftex.def)             Requested size: 198.45662pt x 141.68738pt.
+Package pdftex.def Info: fastq_halo_forward.png used on input line 61.
+(pdftex.def)             Requested size: 220.50885pt x 157.43042pt.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.98 ...halo_forward.png}\label{fig:amp_dist_hpx}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.98 ...halo_forward.png}\label{fig:amp_dist_hpx}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.98 ...halo_forward.png}\label{fig:amp_dist_hpx}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.98 ...halo_forward.png}\label{fig:amp_dist_hpx}}
-                                                  
-? 
-<fastq_tst15_forward.png, id=278, 820.06375pt x 594.22pt>
+<fastq_tst15_forward.png, id=305, 820.06375pt x 594.22pt>
 File: fastq_tst15_forward.png Graphic file (type png)
 
 <use fastq_tst15_forward.png>
-Package pdftex.def Info: fastq_tst15_forward.png used on input line 100.
-(pdftex.def)             Requested size: 198.45662pt x 143.8035pt.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100 ...t15_forward.png}\label{fig:amp_dist_tst}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100 ...t15_forward.png}\label{fig:amp_dist_tst}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100 ...t15_forward.png}\label{fig:amp_dist_tst}}
-                                                  
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100 ...t15_forward.png}\label{fig:amp_dist_tst}}
-                                                  
-? 
-
-LaTeX Warning: Reference `table:samtools_flagstat' on page 15 undefined on inpu
-t line 107.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Package pdftex.def Info: fastq_tst15_forward.png used on input line 63.
+(pdftex.def)             Requested size: 220.50885pt x 159.77965pt.
+ [18 <./fastq_halo_forward.png>] [19 <./graph.pdf>]
+Overfull \hbox (10.43248pt too wide) in paragraph at lines 75--75
 []\OT1/phv/m/n/10.95 Haloplex
  []
 
 
-Overfull \hbox (19.13565pt too wide) in paragraph at lines 104--131
-[]$[]$  $[]$ 
+Overfull \hbox (1.77899pt too wide) in paragraph at lines 75--76
+[]\OT1/phv/m/n/10.95 TST15| 
  []
 
-[15] [16 <./fastq_halo_forward.png> <./fastq_tst15_forward.png>]
-<distribution_amplicons_hap_csc.png, id=294, 1107.1764pt x 864.3492pt>
+
+LaTeX Warning: Reference `table:samtools_flagstat' on page 20 undefined on inpu
+t line 86.
+
+[20 <./fastq_tst15_forward.png>]
+<distribution_amplicons_hap_csc.png, id=328, 1107.1764pt x 864.3492pt>
 File: distribution_amplicons_hap_csc.png Graphic file (type png)
 
 <use distribution_amplicons_hap_csc.png>
 Package pdftex.def Info: distribution_amplicons_hap_csc.png used on input line 
-141.
-(pdftex.def)             Requested size: 198.45662pt x 154.92989pt.
-File: graph.pdf Graphic file (type pdf)
- <use graph.pdf>
-Package pdftex.def Info: graph.pdf used on input line 143.
-(pdftex.def)             Requested size: 198.45662pt x 166.48286pt.
+108.
+(pdftex.def)             Requested size: 220.50885pt x 172.14139pt.
+File: distribution_amplicons_hap_csc.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+<use distribution_amplicons_hap_csc.png>
+Package pdftex.def Info: distribution_amplicons_hap_csc.png used on input line 
+110.
+(pdftex.def)             Requested size: 220.50885pt x 172.14139pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 []\OT1/phv/m/n/10.95 No of
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.165 ATM_
+l.132 ATM_
           14 & 1 & all \\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.165 ATM_14 &
+l.132 ATM_14 &
                1 & all \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []\OT1/phv/m/n/10.95 No of
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.178 ATM_
+l.145 ATM_
           14 & 1 & all \\
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.178 ATM_14 &
+l.145 ATM_14 &
                1 & all \\
 ? 
 
-Overfull \hbox (19.13565pt too wide) in paragraph at lines 159--184
+Overfull \hbox (19.13565pt too wide) in paragraph at lines 126--151
 []$[]$  $[]$ 
  []
 
-[17] [18 <./distribution_amplicons_hap_csc.png>]
+[21 <./distribution_amplicons_hap_csc.png>]
 ! Misplaced alignment tab character &.
-l.217 SureCall &
+l.184 SureCall &
                  TST15
 ? 
-) (./conc.tex) [19] (./thesis_template.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
- [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+) (./conc.tex) [22] (./thesis_template.bbl
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 6.
+)
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+[23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (./thesis_template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `thesis_template.out' has not changed.
-(rerunfilecheck)             Checksum: 2504F829D9B352E75D42E00DED3EF4FE;2005.
+(rerunfilecheck)             Checksum: A4063A986D18F08CAD3AE0ED85CE9B71;2149.
 
 
 LaTeX Warning: There were undefined references.
@@ -907,34 +1114,29 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
  ) 
 Here is how much of TeX's memory you used:
- 8062 strings out of 493089
- 117901 string characters out of 6134842
- 308957 words of memory out of 5000000
- 11320 multiletter control sequences out of 15000+600000
- 23796 words of font info for 58 fonts, out of 8000000 for 9000
+ 8282 strings out of 493089
+ 120261 string characters out of 6134842
+ 310004 words of memory out of 5000000
+ 11524 multiletter control sequences out of 15000+600000
+ 23198 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,47p,2430b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,47p,2445b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvro8a.pfb>
-Output written on thesis_template.pdf (26 pages, 226226 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on thesis_template.pdf (30 pages, 382205 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
