@@ -173,10 +173,11 @@ fail coverage thresholds in several samples.
     \item In TST15 data, more amplicons fail the respective thresholds. Several amplicons in genes MET, KIT, TP53, KRAS and EGFR fail the 1000x coverage threshold, and often even the required threshold of 500x, which is required by the TruSight Tumor 15 App.
 \end{itemize}
 
-The fact that several amplicons in the genes EGFR and KRAS in TST15 data repetitively
-fail the required coverage thresholds is problematic. This is especially the case
-for amplicon 1EGFRxxE21TF035SR035 as it includes the well-known EGFR L858R variant,
-which confers increases sensitivity for EGFR tyrosine kinase inhibitors.
+The fact that several amplicons in the genes EGFR and KRAS in TST15 data
+repetitively fail the required coverage thresholds is problematic. This is
+especially the case for amplicon 1EGFRxxE21TF035SR035 as it includes the
+well-known EGFR L858R variant, which confers increases sensitivity for EGFR
+tyrosine kinase inhibitors.
 
 Fragmentation <-> Coverage?
 % Scatter plot: dCt vs normalized coverage (median / IQR ???)
@@ -268,7 +269,8 @@ PIK3CA & E545K & 9 & & 7.6 & 6 & & 4.8 & 3 & & -- \\
 \end{table}
 
 The observed variant frequencies as detected by the TST15 BaseSpace App are
-in line with the expected variant frequencies.
+in line with the expected variant frequencies. D816V variant in cKIT could
+not be observed as the position of this variant is not covered by the TST15 kit.
 
 TODO: do the same with Haloplex CSC
 
