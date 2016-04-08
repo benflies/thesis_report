@@ -83,20 +83,21 @@ Parameter & Halo CSC & Halo CSC & Halo CSC & TST15 & TST15 \\
 \end{tabular}
 \end{table}
 
-The Samtools Flagstat command was used to determine some basic BAM statistics of BAM
-files of samples prepared with the respective library preparations and processed with
-the mentioned bioinformatic pipelines. \ref{table:samtools_flagstat} shows the
-averaged result of these statistics.
+The Samtools Flagstat command was used to determine some basic BAM statistics of
+BAM files of samples prepared with the respective library preparations and
+processed with the mentioned bioinformatic pipelines.
+\ref{table:samtools_flagstat} shows the averaged result of these statistics.
 
-Considering the recommended pipelines, Haloplex
-CSC data, analyzed with Agilent's SureCall software, has a higher percentage (91\%) of mapped
-reads when compared to Illumina's BaseSpace TruSight Tumor 15 App (62.9\%). Data analysis
-with the recommended SureCall design includes a steps where mates are fixed, but they
-are not stitched together. Therefore no reads are considered as being paired. The TST15 app
-in contrast includes a read stitching step and 58\% are considered as properly paired.
-This means that of the 62.6\% of mapped reads, 4.2\% are not properly paired. 3.8\%
-of reads processed with the TST15 online App are considered to be singletons, whereas
-only 1.8\% of reads processed with the SureCall software are considered as singletons.
+Considering the recommended pipelines, Haloplex CSC data, analyzed with
+Agilent's SureCall software, has a higher percentage (91\%) of mapped reads when
+compared to Illumina's BaseSpace TruSight Tumor 15 App (62.9\%). Data analysis
+with the recommended SureCall design includes a steps where mates are fixed, but
+they are not stitched together. Therefore no reads are considered as being
+paired. The TST15 app in contrast includes a read stitching step and 58\% are
+considered as properly paired. This means that of the 62.6\% of mapped reads,
+4.2\% are not properly paired. 3.8\% of reads processed with the TST15 online
+App are considered to be singletons, whereas only 1.8\% of reads processed with
+the SureCall software are considered as singletons.
 
 \subsection{Coverage Analysis}
 
@@ -129,11 +130,15 @@ Failed Amplicon Counter
 \captionof{table}{Failed Amplicons in Agilent Haloplex ClearSeq Cancer}
 \begin{tabular}{p{3cm} p{1.5cm} p{1.5cm}}\\
 \hline
-Amplicon & Coverage Failed & No of Samples \\
+Amplicon & 1x & 50x & 250x & 500x & 1000x \\
 \hline
-ATM\_14 & 1 & all \\
-Bla & 200 & 9 \\
-Blabla & 500 & 5 \\
+ATM\_14 & 12 & 0 & 0 & 0 & 0 \\
+MAP2K1\_2 & 1 & 0 & 0 & 1 & 4 \\
+ATM\_5 & 0 & 1 & 1 & 0 & 2 \\
+ATM\_11 & 0 & 1 & 1 & 2 & 3 \\
+PTEN\_1 & 0 & 1 & 1 & 0 & 2 \\
+KIT\_6 & 0 & 1 & 0 & 1 & 2 \\
+FGFR3\_1 & 0 & 0 & 1 & 2 & 2 \\
 \label{failed_hpx}
 \end{tabular}
 \end{minipage}
@@ -145,28 +150,33 @@ Blabla & 500 & 5 \\
 Amplicon & 1x & 50x & 250x & 500x & 1000x \\
 \hline
 1METxxxE16TF031SR031 & 0 & 11 & 0 & 1 & 3 \\
+2KITxxxE09TF003SR003 & 0 & 5 & 6 & 0 & 0 \\
+2KITxxxE09TF003SR003 & 0 & 5 & 6 & 0 & 0 \\
+27qxxxxExxTF034SR034 & 0 & 0 & 2 & 4 & 5 \\
 17qxxxxExxTF018SR018 & 0 & 1 & 1 & 4 & 4 \\
 1KRASxxE04TF002SR002 & 0 & 1 & 1 & 3 & 6 \\
 1TP53xxE02TF034SR034 & 0 & 0 & 3 & 5 & 9 \\
 1EGFRxxE19TF032SR032 & 0 & 0 & 1 & 5 & 5 \\
 1EGFRxxE21TF035SR035 & 0 & 0 & 1 & 2 & 2 \\
+2TP53xxE02TF033SR033 & 0 & 0 & 0 & 1 & 3 \\
 \label{failed_tst}
 \end{tabular}
 \end{minipage}
 
 Table XXX and table XXX show how often a given amplicon failed a given coverage
 threshold. The number of failed amplicons is low for Haloplex CSC as wel las for TST15.
-Most amplicons were amplified efficiently in most samples. Most counts in this
-table originate from sample G, which, as already mentioned, had a bad dCt. Even
-though this table shows that there are only a few amplicons failing the respective
-coverage thresholds, the following issues were observed:
+Most amplicons were amplified efficiently in most samples, which is also confirmed by figure XXX (amplicon distributions). Some amplicons however
+fail coverage thresholds in several samples.
 \begin{itemize}
-\item Amplicon ATM\_14 was never amplified in Haloplex CSC data.
-\item Amplicon blabla problem mat kras an egfr failed
-
+    \item Amplicon ATM\_14 in Haloplex CSC was never amplified. This amplicon is defined in the BED file but obviously is not part of the kit. (negative control?)
+    \item Amplicons ATM\_5, ATM\_10, MAP2K1, PTEN\_1, KIT\_6 and FGFR3\_1 in Haloplex CSC data failed a coverage threshold of 1000x in several samples
+    \item In TST15 data, more amplicons fail the respective thresholds. Several amplicons in genes MET, KIT, TP53, KRAS and EGFR fail the 1000x coverage threshold, and often even the required threshold of 500x, which is required by the TruSight Tumor 15 App.
 \end{itemize}
 
-ATM\_14 is never amplified in Haloplex CSC data.
+The fact that several amplicons in the genes EGFR and KRAS in TST15 data repetitively
+fail the required coverage thresholds is problematic. This is especially the case
+for amplicon 1EGFRxxE21TF035SR035 as it includes the well-known EGFR L858R variant,
+which confers increases sensitivity for EGFR tyrosine kinase inhibitors.
 
 Fragmentation <-> Coverage?
 % Scatter plot: dCt vs normalized coverage (median / IQR ???)
