@@ -27,8 +27,9 @@ for Haloplex CSC and 200-400 for TST15.
 Using the blablabla software, the concentration, molarity and total peak area (TPA)
 of the expected sequencing libraries were calculated.
 
-Hopefully: there is a relationship between dCt and TPA. Maybe: Haloplex is more
-affected by bad dCt values.
+Maybe: relationship between dCt and TPA?
+
+Maybe: the enrichment of one or the other kit is more affected by bad quality samples
 
 \subsection{NGS Data Quality}
 
@@ -72,11 +73,12 @@ quality. This is in direct relationship with the sequencing chemistry kit used.
 \begin{table}
 \begin{tabular}{p{3.5cm} p{1cm} p{1cm}}\\
 \hline
-Parameter & Haloplex CSC & TST15 \\
+Parameter & Halo CSC & Halo CSC & Halo CSC & TST15 & TST15 \\
+          & SureCall duplicates removed & SureCall & Velona & BaseSpace & Velona \\
 \hline
-\% mapped & 91 & 62.6 \\
-\% paired & 0 & 58.7 \\
-\% singletons & 1.8 & 3.8 \\
+\% mapped & & & & 62.6 & \\
+\% paired & & & & 58.7 & \\
+\% singletons & & & & 3.8 & \\
 \label{samtools_flagstat}
 \end{tabular}
 \end{table}
@@ -165,24 +167,88 @@ Strandedness?
 GATK DepthOfCoverage???
 
 \subsection{Variant Calling Algorithm Comparison}
-Detection of Known Single Nucleotide Variants and Deletions
 
-Which should be found?
+\subsubsection{Detection of Known Single Nucleotide Variants and Deletions}
 
-Which have not been found? Why?
+Table XXX shows known variants in the analyzed samples and the variant frequency
+reported by the recommended pipelines. There is a high concordance between  the
+results of both kits and previously known variants.
 
-MuTect
+TST15 could not detect EGFR del19 in patient F due to low coverage. The
+corresponding region was inspected in IGV and the deletion was present.  The
+amplicon was not amplified  efficiently and has only a coverage of 167x. The
+TST15 BaseSpace App however  applies a coverage threshold at 500x. Variants with
+a lower depth are not reported. The same sample was sequenced twice and the
+deletion was never detected. This is probably due to the fragmentation induced
+by the FFPE fixation.
 
-VarScan
+Haloplex CSC did not find KRAS p.Gly12Val in patient G, also due to low coverage
+for this amplicon. The corresponding region was inspected in IGV: the region has
+a coverage of only 180x. Only one read showed the expected C>A variant.  Sample
+G is also the sample with the worst dCt (2.85). The  hig fragmentation in this
+sample is probably responsible for the bad amplification. The same sample will
+be re-sequenced in a later run to check  is the problem is related to the
+fragmentation of the sample or if library preparation was bad.
 
-GATK HaplotypeCaller
+\begin{table}
+\begin{tabular}{p{3.5cm} p{1cm} p{1cm}}\\
+\hline
+Sample_ID & Context & Tissue & Known variant & Halo CSC Freq (\%) & TST15 Freq (\%) \\
+\hline
+A & NSCLC & FFPE & EGFR L858R & 24.7 & 21.4 \\
+B & NSCLC & FFPE & EGFR L858R & 24.3 & 13.2 \\
+C & NSCLC & FFPE & EGFR L858R & 32.7 & 29.8\\
+D & Melanoma & FFPE & BRAF V600E & 44.4 & 47.6 \\
+E & mCRC & FFPE & BRAF V600E & 18.4 & 21.4 \\
+F & NSCLC & FFPE & EGFR del19 & not_found & 50 \\
+G & mCRC & FFPE & KRAS CD 12_13 & p.Gly12Val (3.4) & not_found \\
+H & mCRC & FFPE & KRAS CD 12_13  & p.Gly12Asp (37.4) & G12D (31.4)\\
+I & mCRC & FFPE & KRAS CD 12_13  & p.Gly13Asp (9.7 )& G13D (8.7) \\
+J & mCRC & FFPE & NRAS p.Gly12Asp & 25.9 & 27.2 \\
+K & Melanoma & FFPE & BRAF V600E & 66.2 & 59.5 \\
+L & mCRC & FFPE & NRAS p.Gly13Val & 6.6 & 5 \\
+M & mCRC & FFPE & KRAS and NRAS WT & WT & WT \\
+N & mCRC & FFPE & KRAS and NRAS WT & WT & WT \\
+O & Melanoma & FFPE &BRAF V600E & 37.4 & \\
+\label{known_variants}
+\end{tabular}
+\end{table}
 
-SomVarIUS????????
-Freebayes????????
-Vardict???????
+Additional previously unknown variants were found (TODO: put a table into the appendix)
 
-SureCall & TST15
+\subsubsection{Sensitivity Analysis}
+BRAF Mut and WT samples from Horizon were analyzed. The BRAF Mut sample was
+sequenced purely, as well as in a 1/3 and 2/3 dilution with the BRAF WT sample.
+
+\begin{table}
+\begin{tabular}{p{3.5cm} p{1cm} p{1cm}}\\
+\hline
+Gene & Variant & Expected Var Freq 100\% &  Var Freq 100\% Halo CSC &  Var Freq 100\% TST 15 & Expected Var Freq 66\% &  Var Freq 66\% Halo CSC & Expected Var Freq 66\% TST15 & Expected Var Freq 33\% & Var Freq 33\% Halo CSC & Var Freq 33\% TST15 \\
+\hline
+BRAF & V600E & 10.5 & & 12.5 & 7 & & 8.3 & 3.5 & & 4.4 \\
+cKIT & D816V & 10 & & -- & 6.67 & & -- & 3.33 & & -- \\
+EGFR & delE756-A751 & 2 & & -- & 1.33 & & -- & 0.67 & & -- \\
+EGFR & L858R & 3 & & 3.6 & 2 & & -- & 1 & & -- \\
+EGFR & T790M & 1 & & -- & 0.67 & & -- & 0.33 & & -- \\
+EGFR & G719S & 24.5 & & 24.2 & 16.33 & & 18.9 & 8.17 & & 11.5 \\
+KRAS & G13D & 15 & & 15.2 & 26.67 & & 27.7 & 38.33 & & 38.5 \\
+KRAS & G12D & 6 & & 7.3 & 4 & & 3.3 & 2 & & -- \\
+NRAS & Q61K & 12.5 & & 11.6 & 8.33 & & 8.3 & 4.17 & & 3.6 \\
+PIK3CA & H1047R & 17.5 & & 16.1 & 26.67 & & 29.7 & 38.33 & & 37.9 \\
+PIK3CA & E545K & 9 & & 7.6 & 6 & & 4.8 & 3 & & -- \\
+\label{horizon_analysis}
+\end{tabular}
+\end{table}
+
+The observed variant frequencies as detected by the TST15 BaseSpace App are
+in line with the expected variant frequencies.
+
+TODO: do the same with Haloplex CSC
+
+TODO: call variants with MuTect 1.1.7, VarScan 2, GATK HaplotypeCaller, SomVarIUS?, Freebayes?, Vardict???????
+TODO: compare results
+
+Among the variants detected by MuTect, 40--50 \% are C>T variants. This has been reported in several studies.
+TODO: do this for all samples, check if this is really statistically significant or only happened in a few samples
 
 Tools that may be of use somehow: GATK SelectVariants; GATK VariantFiltration; GATK VariantEval; GATK ValidateVariants
-
-More C>T ?
