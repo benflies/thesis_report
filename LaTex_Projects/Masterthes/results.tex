@@ -127,11 +127,11 @@ Failed Amplicon Counter
 
 \begin{minipage}{0.5\textwidth}
 \captionof{table}{Failed Amplicons in Agilent Haloplex ClearSeq Cancer}
-\begin{tabular}{p{1.5cm} p{1.5cm} p{1.5cm}}\\
+\begin{tabular}{p{3cm} p{1.5cm} p{1.5cm}}\\
 \hline
 Amplicon & Coverage Failed & No of Samples \\
 \hline
-ATM_14 & 1 & all \\
+ATM\_14 & 1 & all \\
 Bla & 200 & 9 \\
 Blabla & 500 & 5 \\
 \label{failed_hpx}
@@ -142,14 +142,31 @@ Blabla & 500 & 5 \\
 \captionof{table}{Failed Amplicons in Illumina TruSight Tumor 15}
 \begin{tabular}{p{3cm} p{1.5cm} p{1.5cm}}\\
 \hline
-Amplicon & Coverage Failed & No of Samples \\
+Amplicon & 1x & 50x & 250x & 500x & 1000x \\
 \hline
-ATM_14 & 1 & all \\
-Bla & 200 & 9 \\
-Blabla & 500 & 5 \\
+1METxxxE16TF031SR031 & 0 & 11 & 0 & 1 & 3 \\
+17qxxxxExxTF018SR018 & 0 & 1 & 1 & 4 & 4 \\
+1KRASxxE04TF002SR002 & 0 & 1 & 1 & 3 & 6 \\
+1TP53xxE02TF034SR034 & 0 & 0 & 3 & 5 & 9 \\
+1EGFRxxE19TF032SR032 & 0 & 0 & 1 & 5 & 5 \\
+1EGFRxxE21TF035SR035 & 0 & 0 & 1 & 2 & 2 \\
 \label{failed_tst}
 \end{tabular}
 \end{minipage}
+
+Table XXX and table XXX show how often a given amplicon failed a given coverage
+threshold. The number of failed amplicons is low for Haloplex CSC as wel las for TST15.
+Most amplicons were amplified efficiently in most samples. Most counts in this
+table originate from sample G, which, as already mentioned, had a bad dCt. Even
+though this table shows that there are only a few amplicons failing the respective
+coverage thresholds, the following issues were observed:
+\begin{itemize}
+\item Amplicon ATM\_14 was never amplified in Haloplex CSC data.
+\item Amplicon blabla problem mat kras an egfr failed
+
+\end{itemize}
+
+ATM\_14 is never amplified in Haloplex CSC data.
 
 Fragmentation <-> Coverage?
 % Scatter plot: dCt vs normalized coverage (median / IQR ???)
